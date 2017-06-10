@@ -1,0 +1,2730 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Coaching Machine\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-24 15:21+0100\n"
+"PO-Revision-Date: 2016-06-24 15:27+0100\n"
+"Last-Translator: LD <ld@internet.com>\n"
+"Language-Team: L.Dias <smartbyte.systems@gmail.com>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: D:/xampp/htdocs/coaching-machine/app\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Controller/AppController.php:62
+msgid "Invalid login or password"
+msgstr "Login ou Senha inválida."
+
+#: Controller/AppController.php:63
+msgid "Without access permission"
+msgstr "Sem permissão de acesso"
+
+#: Controller/AppController.php:112 Controller/TasksController.php:89
+msgid "There are no itens to list."
+msgstr "Não existem itens para listar"
+
+#: Controller/AppController.php:128 Controller/AppController.php:153
+#: Controller/AppController.php:201
+msgid "Invalid action"
+msgstr "Ação inválida"
+
+#: Controller/AppController.php:170 Controller/WheelsController.php:206
+msgid "The item has been saved."
+msgstr "O item foi gravado."
+
+#: Controller/AppController.php:181 Controller/WheelsController.php:217
+msgid "The item could not be saved. Please, try again."
+msgstr "O item não pode ser gravado. Por favor, tente novamente."
+
+#: Controller/AppController.php:206
+msgid "The item has been deleted."
+msgstr "O item foi excluído."
+
+#: Controller/AppController.php:208
+msgid "The item could not be deleted. Please, try again."
+msgstr "O item não pode ser excluído. Por favor, tente novamente."
+
+#: Controller/AppController.php:211
+msgid "There are related records. Record was not deleted."
+msgstr "Existem itens relacionados. Item não foi excluído."
+
+#: Controller/ConfigDefaultsController.php:11
+#: Controller/ConfigDefaultsController.php:15
+msgid "Invalid action."
+msgstr "Ação inválida"
+
+#: Controller/ConfigSurveysController.php:199
+msgid "Copy failed. Survey does not exist."
+msgstr "A cópia falhou. Questionário não existe."
+
+#: Controller/ConfigSurveysController.php:265
+#: Controller/ConfigWheelsController.php:144
+msgid "Copy successfully created."
+msgstr "Cópia criada com sucesso."
+
+#: Controller/ConfigWheelsController.php:96
+msgid "Copy failed. Wheel does not exist."
+msgstr "A cópia falhou. Roda não existe."
+
+#: Controller/EnneagramTestsController.php:37
+#: Controller/EnneagramTestsController.php:72
+#: Controller/EnneagramTestsController.php:100
+msgid "Invalid enneagram test"
+msgstr "Teste do Eneagrama inválido"
+
+#: Controller/EnneagramTestsController.php:52
+#: Controller/EnneagramTestsController.php:76
+msgid "The enneagram test has been saved."
+msgstr "O Teste do Eneagrama foi gravado."
+
+#: Controller/EnneagramTestsController.php:55
+#: Controller/EnneagramTestsController.php:79
+msgid "The enneagram test could not be saved. Please, try again."
+msgstr "O Teste do Eneagrama não pode ser gravado. Por favor, tente novamente."
+
+#: Controller/EnneagramTestsController.php:104
+msgid "The enneagram test has been deleted."
+msgstr "O Teste do Eneagrama foi excluído."
+
+#: Controller/EnneagramTestsController.php:106
+msgid "The enneagram test could not be deleted. Please, try again."
+msgstr ""
+"O Teste do Eneagrama não pode ser excluído. Por favor, tente novamente."
+
+#: Controller/SurveysController.php:102
+msgid "The item has been saved"
+msgstr "O item foi salvo"
+
+#: Controller/SurveysController.php:106
+msgid "An errror ocurred while saving the survey"
+msgstr "Um erro ocorreu enquanto salvava o questionário "
+
+#: Controller/TasksController.php:38
+msgid "Invalid User"
+msgstr "Usuário inválido"
+
+#: Controller/TasksController.php:43 Controller/TasksController.php:55
+msgid "Invalid Pack"
+msgstr "Pacote inválido"
+
+#: Controller/UsersController.php:26
+msgid "Invalid username or password, try again"
+msgstr "Nome de utilizador ou Senha inválidos, tente novamente."
+
+#: Controller/UsersController.php:42
+msgid "Invalid user"
+msgstr "Usuário inválido"
+
+#: Controller/UsersController.php:53
+msgid "No active pack of meetings for this user"
+msgstr "Não há pacote de sessões activo para este utilizador"
+
+#: Controller/WheelsController.php:54 View/ConfigSurveys/index.ctp:121
+#: View/ConfigWheels/index.ctp:64 View/Elements/wheel-of-life-html-css.ctp:109
+msgid "Test"
+msgstr "Testar"
+
+#: Model/ConfigAnswer.php:32 Model/ConfigLabel.php:37
+#: Model/ConfigQuestion.php:33
+msgid "Code is required"
+msgstr "Código é obrigatório"
+
+#: Model/ConfigAnswer.php:42
+msgid "Answer is required"
+msgstr "Resposta é obrigatória"
+
+#: Model/ConfigAnswer.php:52 Model/ConfigLabel.php:57
+#: Model/ConfigQuestion.php:83 Model/ConfigQuestionGroup.php:37
+msgid "Order is required"
+msgstr "Ordem  é obrigatória"
+
+#: Model/ConfigAnswer.php:62 Model/ConfigLabel.php:67
+msgid "Assessment Value is required"
+msgstr "Valor é obrigatório"
+
+#: Model/ConfigAnswer.php:72 Model/ConfigQuestion.php:43
+msgid "Question is required"
+msgstr "Pergunta é obrigatória"
+
+#: Model/ConfigDefault.php:27
+msgid "Default Country is required"
+msgstr "País de Definição é obrigatório"
+
+#: Model/ConfigDefault.php:37
+msgid "Default Language is required"
+msgstr "Idioma de Definição  é obrigatório"
+
+#: Model/ConfigDefault.php:47
+msgid "Default Currency is required"
+msgstr "Moeda de Definição  é obrigatória"
+
+#: Model/ConfigDefault.php:57
+msgid "An answer is required"
+msgstr "Uma resposta é obrigatória"
+
+#: Model/ConfigLabel.php:27
+msgid "Label Set is required"
+msgstr "Conjunto de Rótulos é obrigatório"
+
+#: Model/ConfigLabel.php:47 Model/ConfigLabelSet.php:27
+#: Model/ConfigQuestionGroup.php:27 Model/ConfigSurvey.php:27
+#: Model/ConfigWheelSlice.php:62 Model/ConfigWheelSliceGroup.php:29
+#: Model/Link.php:61 Model/Pack.php:78 Model/Task.php:68 Model/Wheel.php:65
+msgid "Title is required"
+msgstr "Título é obrigatório"
+
+#: Model/ConfigQuestion.php:53 Model/Survey.php:62
+msgid "Survey is required"
+msgstr "Questionário é obrigatório"
+
+#: Model/ConfigQuestion.php:63
+msgid "Group is required"
+msgstr "Grupo é obrigatório"
+
+#: Model/ConfigQuestion.php:73
+msgid "Type is required"
+msgstr "Tipo  é obrigatório"
+
+#: Model/ConfigSurvey.php:37
+msgid "Format is required"
+msgstr "Formato  é obrigatório"
+
+#: Model/ConfigSurvey.php:47
+msgid "Show \"No Answer\" is required"
+msgstr "Mostrar \"Sem Resposta\" é obrigatório"
+
+#: Model/ConfigSurvey.php:57
+msgid "Show \"There are X questions in this survey\" is required"
+msgstr "Mostrar \"Existem X perguntas neste questionário\" é obrigatório"
+
+#: Model/ConfigWheelSlice.php:42
+msgid "Wheel is required"
+msgstr "Roda é obrigatória"
+
+#: Model/ConfigWheelSlice.php:52
+msgid "Wheel Slice Group is required"
+msgstr "Grupo de Fatias da Roda é obrigatório"
+
+#: Model/ConfigWheelSlice.php:72
+msgid "Color is required"
+msgstr "Cor é obrigatória"
+
+#: Model/ConfigWheelSlice.php:82 Model/ConfigWheelSliceGroup.php:39
+msgid "Position is required"
+msgstr "Posição é obrigatória"
+
+#: Model/Link.php:37 Model/Meeting.php:41 Model/Pack.php:40
+#: Model/Payment.php:34 Model/Survey.php:38 Model/Task.php:42
+#: Model/Wheel.php:41
+msgid "User is required"
+msgstr "Usuário é obrigatório"
+
+#: Model/Link.php:47 Model/Meeting.php:51 Model/Payment.php:44
+#: Model/Survey.php:48 Model/Task.php:52 Model/Wheel.php:51
+msgid "Pack is required"
+msgstr "Pacote é obrigatório"
+
+#: Model/Link.php:55 Model/Meeting.php:59 Model/Payment.php:52
+#: Model/Survey.php:56 Model/Task.php:56 Model/Wheel.php:59
+msgid "Pack does not belong to User"
+msgstr "Pacote não pertence a este utilizador"
+
+#: Model/Link.php:67
+msgid "Invalid URL"
+msgstr "URL inválida"
+
+#: Model/Meeting.php:65
+msgid "Date is required"
+msgstr "Data  é obrigatória"
+
+#: Model/Meeting.php:75
+msgid "Summary is required"
+msgstr "Resumo é obrigatório"
+
+#: Model/Meeting.php:85 Model/Payment.php:78
+msgid "Please enter only numbers"
+msgstr "Por favor insira apenas números"
+
+#: Model/Pack.php:50
+msgid "Status is required"
+msgstr "Status é obrigatório"
+
+#: Model/Pack.php:59 Model/Pack.php:68
+msgid "There is an active pack for this user"
+msgstr "Já existe um pacote activo para este utilizador"
+
+#: Model/Pack.php:88
+msgid "Number of meetings is required"
+msgstr "Número de sessões é obrigatório"
+
+#: Model/Pack.php:98
+msgid "Meeting price is required"
+msgstr "Valor da sessão é obrigatório"
+
+#: Model/Pack.php:108 Model/Task.php:90
+msgid "Start Date is required"
+msgstr "Data de Início é obrigatória"
+
+#: Model/Pack.php:118
+msgid "End Date is required"
+msgstr "Data do término é obrigatória"
+
+#: Model/Pack.php:126
+msgid "Start Date can not be greater than End Date"
+msgstr "Início não pode ser maior do que o Término"
+
+#: Model/Payment.php:58
+msgid "Due Amount is required"
+msgstr "Valor devido é obrigatório"
+
+#: Model/Payment.php:68
+msgid "Due Date is required"
+msgstr "Vencimento é obrigatório"
+
+#: Model/Task.php:62
+msgid "Number is required"
+msgstr "Número é obrigatório"
+
+#: Model/Task.php:74
+msgid "Description is required"
+msgstr "Descrição é obrigatório"
+
+#: Model/Task.php:80
+msgid "Select the repeat type"
+msgstr "Selecione o tipo de repetição"
+
+#: Model/Task.php:84
+msgid "Select at least one day"
+msgstr "Selecione pelo menos um dia"
+
+#: Model/Task.php:97
+msgid "Time is required"
+msgstr "Tempo  é obrigatório"
+
+#: Model/User.php:48
+msgid "File is larger than the maximum filesize - 500Kb"
+msgstr "Ficheiro é maior do que tamanho máximo - 500Kb"
+
+#: Model/User.php:54
+msgid "File is below the maximum height - 160px"
+msgstr "Ficheiro tem altura menor do que a máxima permitida - 160px"
+
+#: Model/User.php:62
+msgid "Role is required"
+msgstr "Papel é obrigatório"
+
+#: Model/User.php:70 Model/User.php:78
+msgid "There can be only one coach/administrator"
+msgstr "Só pode existir um coach/administrador"
+
+#: Model/User.php:88
+msgid "Name is required"
+msgstr "Nome é obrigatório"
+
+#: Model/User.php:98
+msgid "Email is required"
+msgstr "Email é obrigatório"
+
+#: Model/User.php:104
+msgid "Username is required"
+msgstr "Nome de utilizador é obrigatório"
+
+#: Model/User.php:108
+msgid "Username already exists"
+msgstr "Nome de usuário já existe"
+
+#: Model/User.php:114 Model/User.php:120
+msgid "Must be at least 8 characters"
+msgstr "No mínimo 8 caracteres"
+
+#: Model/User.php:128 Model/User.php:134
+msgid "Passwords don't match"
+msgstr "Palavras-passe não são iguais"
+
+#: Model/User.php:143 Model/User.php:150 Model/User.php:157 Model/User.php:164
+msgid "Insert a valid URL"
+msgstr "Digite um endereço válido"
+
+#: Model/Wheel.php:75
+msgid "Wheel Type is required"
+msgstr "Tipo de Roda é obrigatório"
+
+#: Plugin/Upload/Console/Command/ThumbnailShell.php:34
+msgid "Which model would you like to regenerate thumbnails for?"
+msgstr "Para qual modelo você deseja recriar as miniaturas?"
+
+#: Plugin/Upload/Console/Command/ThumbnailShell.php:39
+msgid "<error>"
+msgstr "<erro>"
+
+#: Plugin/Upload/Model/Behavior/UploadBehavior.php:1089
+#, php-format
+msgid "No filename after parsing. Function %s returned an invalid filename"
+msgstr "Nenhum nome de arquivo. Função %s retornou um nome de arquivo inválido"
+
+#: View/Actions/add.ctp:4
+msgid "Add Action"
+msgstr "Incluir Ação"
+
+#: View/Actions/add.ctp:9 View/Actions/edit.ctp:10
+#: View/EnneagramTests/add.ctp:21 View/EnneagramTests/edit.ctp:22
+#: View/WheelSlices/add.ctp:14 View/WheelSlices/edit.ctp:15
+msgid "Submit"
+msgstr "Enviar"
+
+#: View/Actions/add.ctp:12 View/Actions/edit.ctp:13 View/Actions/index.ctp:2
+#: View/Actions/index.ctp:9 View/Actions/index.ctp:44 View/Actions/view.ctp:22
+#: View/ConfigAnswers/index.ctp:14 View/ConfigAnswers/index.ctp:54
+#: View/ConfigAnswers/view.ctp:47 View/ConfigDefaults/index.ctp:17
+#: View/ConfigDefaults/index.ctp:26 View/ConfigDefaults/view.ctp:43
+#: View/ConfigLabelSets/view.ctp:27 View/ConfigLabels/index.ctp:13
+#: View/ConfigLabels/index.ctp:50 View/ConfigLabels/view.ctp:42
+#: View/ConfigQuestionGroups/index.ctp:12
+#: View/ConfigQuestionGroups/index.ctp:50 View/ConfigQuestionGroups/view.ctp:37
+#: View/ConfigQuestions/index.ctp:16 View/ConfigQuestions/index.ctp:60
+#: View/ConfigQuestions/view.ctp:57 View/ConfigQuestions/view.ctp:84
+#: View/ConfigSurveys/index - original.ctp:13 original.ctp:50
+#: View/ConfigSurveys/index.ctp:356 View/ConfigSurveys/view.ctp:42
+#: View/ConfigSurveys/view.ctp:65 View/ConfigSurveys/view.ctp:106
+#: View/ConfigWheelSliceGroups/index.ctp:18
+#: View/ConfigWheelSliceGroups/index.ctp:26
+#: View/ConfigWheelSliceGroups/view.ctp:42 View/ConfigWheelSlices/index.ctp:80
+#: View/ConfigWheelSlices/index.ctp:99 View/ConfigWheelSlices/view.ctp:46
+#: View/ConfigWheels/index Copy.ctp:17 Copy.ctp:24
+#: View/ConfigWheels/index.ctp:204 View/ConfigWheels/index.ctp:214
+#: View/ConfigWheels/view.ctp:41
+#: View/Elements/related-config-wheel-slice.ctp:14
+#: View/Elements/related-enneagram-tests.ctp:22
+#: View/Elements/related-meetings.ctp:13 View/Elements/related-meetings.ctp:21
+#: View/Elements/related-packs.ctp:14 View/Elements/related-payments.ctp:15
+#: View/Elements/related-payments.ctp:25 View/Elements/related-tasks.ctp:14
+#: View/Elements/related-tasks.ctp:22 View/Elements/related-wheels.ctp:16
+#: View/EnneagramTests/add.ctp:24 View/EnneagramTests/edit.ctp:25
+#: View/EnneagramTests/index.ctp:22 View/EnneagramTests/index.ctp:72
+#: View/EnneagramTests/view.ctp:87 View/Links/index.ctp:116
+#: View/Links/index.ctp:134 View/Links/view.ctp:59 View/Meetings/index.ctp:85
+#: View/Meetings/index.ctp:103 View/Meetings/view.ctp:53
+#: View/Packs/index.ctp:71 View/Packs/index.ctp:88 View/Packs/view.ctp:73
+#: View/Payments/index.ctp:86 View/Payments/index.ctp:105
+#: View/Payments/view.ctp:36 View/Surveys/index.ctp:83
+#: View/Surveys/index.ctp:139 View/Surveys/view Cópia.ctp:42 Cópia.ctp:73
+#: Cópia.ctp:110 Cópia.ctp:151 View/Tasks/index.ctp:86
+#: View/Tasks/index.ctp:121 View/Tasks/view.ctp:117 View/Users/view.ctp:165
+#: View/WheelSlices/add.ctp:17 View/WheelSlices/edit.ctp:18
+#: View/WheelSlices/index.ctp:15 View/WheelSlices/index.ctp:44
+#: View/WheelSlices/view.ctp:52 View/Wheels/index.ctp:88
+#: View/Wheels/index.ctp:105 View/Wheels/view.ctp:48
+msgid "Actions"
+msgstr "Ações"
+
+#: View/Actions/add.ctp:15 View/Actions/edit.ctp:17 View/Actions/view.ctp:26
+msgid "List Actions"
+msgstr "Listar Ações"
+
+#: View/Actions/add.ctp:16 View/Actions/edit.ctp:18 View/Actions/index.ctp:47
+#: View/Actions/view.ctp:28 View/Tasks/view.ctp:121
+msgid "List Tasks"
+msgstr "Listar Tarefas"
+
+#: View/Actions/add.ctp:17 View/Actions/edit.ctp:19 View/Actions/index.ctp:48
+#: View/Actions/view.ctp:29 View/Elements/related-tasks.ctp:45
+#: View/Tasks/view.ctp:122
+msgid "New Task"
+msgstr "Nova Tarefa"
+
+#: View/Actions/edit.ctp:4 View/Actions/view.ctp:24
+msgid "Edit Action"
+msgstr "Alterar Ação"
+
+#: View/Actions/edit.ctp:16 View/Actions/index.ctp:23
+#: View/ConfigAnswers/index.ctp:33 View/ConfigLabelSets/index.ctp:9
+#: View/ConfigLabelSets/index.ctp:68 View/ConfigLabels/index.ctp:29
+#: View/ConfigQuestionGroups/index.ctp:29 View/ConfigQuestions/index.ctp:39
+#: View/ConfigQuestions/view.ctp:99 View/ConfigSurveys/index - original.ctp:29
+#: View/ConfigSurveys/index.ctp:110 View/ConfigSurveys/index.ctp:188
+#: View/ConfigSurveys/index.ctp:252 View/ConfigSurveys/index.ctp:316
+#: View/ConfigSurveys/view.ctp:78 View/ConfigSurveys/view.ctp:123
+#: View/ConfigWheelSliceGroups/index.ctp:34
+#: View/ConfigWheelSlices/index.ctp:107 View/ConfigWheels/index Copy.ctp:32
+#: View/ConfigWheels/index.ctp:53 View/ConfigWheels/index.ctp:125
+#: View/ConfigWheels/index.ctp:181
+#: View/Elements/related-config-wheel-slice.ctp:31
+#: View/Elements/related-enneagram-tests.ctp:45
+#: View/Elements/related-meetings.ctp:29 View/Elements/related-packs.ctp:32
+#: View/Elements/related-payments.ctp:33 View/Elements/related-tasks.ctp:30
+#: View/Elements/related-wheels.ctp:29 View/EnneagramTests/edit.ctp:28
+#: View/EnneagramTests/index.ctp:51 View/Links/index.ctp:142
+#: View/Meetings/index.ctp:111 View/Packs/index.ctp:96
+#: View/Payments/index.ctp:113 View/Surveys/index.ctp:160 View/Surveys/view
+#: Cópia.ctp:86 Cópia.ctp:123 Cópia.ctp:168 View/Tasks/index.ctp:129
+#: View/Users/index.ctp:66 View/WheelSlices/edit.ctp:21
+#: View/WheelSlices/index.ctp:35 View/Wheels/index.ctp:116
+msgid "Delete"
+msgstr "Excluir"
+
+#: View/Actions/edit.ctp:16 View/Actions/index.ctp:23 View/Actions/view.ctp:25
+#: View/ConfigAnswers/index.ctp:33 View/ConfigAnswers/view.ctp:50
+#: View/ConfigDefaults/view.ctp:46 View/ConfigLabelSets/index.ctp:16
+#: View/ConfigLabelSets/index.ctp:75 View/ConfigLabelSets/view.ctp:30
+#: View/ConfigLabels/index.ctp:29 View/ConfigLabels/view.ctp:45
+#: View/ConfigQuestionGroups/index.ctp:29 View/ConfigQuestionGroups/view.ctp:40
+#: View/ConfigQuestions/index.ctp:39 View/ConfigQuestions/view.ctp:60
+#: View/ConfigQuestions/view.ctp:99 View/ConfigSurveys/index - original.ctp:29
+#: View/ConfigSurveys/index.ctp:117 View/ConfigSurveys/index.ctp:195
+#: View/ConfigSurveys/index.ctp:259 View/ConfigSurveys/index.ctp:323
+#: View/ConfigSurveys/view.ctp:45 View/ConfigSurveys/view.ctp:78
+#: View/ConfigSurveys/view.ctp:123 View/ConfigWheelSliceGroups/index.ctp:34
+#: View/ConfigWheelSliceGroups/view.ctp:45 View/ConfigWheelSlices/index.ctp:107
+#: View/ConfigWheelSlices/view.ctp:49 View/ConfigWheels/index Copy.ctp:32
+#: View/ConfigWheels/index.ctp:60 View/ConfigWheels/index.ctp:130
+#: View/ConfigWheels/index.ctp:186 View/ConfigWheels/view.ctp:44
+#: View/Elements/related-config-wheel-slice.ctp:31
+#: View/Elements/related-enneagram-tests.ctp:45
+#: View/Elements/related-meetings.ctp:29 View/Elements/related-packs.ctp:32
+#: View/Elements/related-payments.ctp:33 View/Elements/related-tasks.ctp:30
+#: View/Elements/related-wheels.ctp:29 View/EnneagramTests/edit.ctp:28
+#: View/EnneagramTests/index.ctp:51 View/EnneagramTests/view.ctp:90
+#: View/Links/index.ctp:142 View/Links/view.ctp:62 View/Meetings/index.ctp:111
+#: View/Meetings/view.ctp:56 View/Packs/index.ctp:96 View/Packs/view.ctp:76
+#: View/Payments/index.ctp:113 View/Payments/view.ctp:39
+#: View/Surveys/index.ctp:160 View/Surveys/view Cópia.ctp:45 Cópia.ctp:86
+#: Cópia.ctp:123 Cópia.ctp:168 View/Tasks/index.ctp:129
+#: View/Tasks/view.ctp:120 View/Users/index.ctp:66 View/Users/view.ctp:168
+#: View/WheelSlices/edit.ctp:21 View/WheelSlices/index.ctp:35
+#: View/WheelSlices/view.ctp:55 View/Wheels/index.ctp:116
+#: View/Wheels/view.ctp:51
+#, php-format
+msgid "Are you sure you want to delete # %s?"
+msgstr "Tem certeza de que queres excluir # %s?"
+
+#: View/Actions/index.ctp:21 View/ConfigAnswers/index.ctp:31
+#: View/ConfigLabels/index.ctp:27 View/ConfigQuestionGroups/index.ctp:27
+#: View/ConfigQuestions/index.ctp:37 View/ConfigQuestions/view.ctp:97
+#: View/ConfigSurveys/index - original.ctp:27 View/ConfigSurveys/view.ctp:76
+#: View/ConfigSurveys/view.ctp:121 View/ConfigWheelSliceGroups/index.ctp:32
+#: View/ConfigWheelSlices/index.ctp:105 View/ConfigWheels/index Copy.ctp:30
+#: View/Elements/related-config-wheel-slice.ctp:29
+#: View/Elements/related-enneagram-tests.ctp:43
+#: View/Elements/related-meetings.ctp:27 View/Elements/related-packs.ctp:30
+#: View/Elements/related-payments.ctp:31 View/Elements/related-tasks.ctp:28
+#: View/Elements/related-wheels.ctp:27 View/EnneagramTests/index.ctp:49
+#: View/Links/index.ctp:140 View/Meetings/index.ctp:109 View/Packs/index.ctp:94
+#: View/Payments/index.ctp:111 View/Surveys/view Cópia.ctp:84 Cópia.ctp:121
+#: Cópia.ctp:166 View/Tasks/index.ctp:127 View/Users/index.ctp:63
+#: View/WheelSlices/index.ctp:33 View/Wheels/index.ctp:114
+msgid "View"
+msgstr "Visualizar"
+
+#: View/Actions/index.ctp:22 View/ConfigAnswers/index.ctp:32
+#: View/ConfigDefaults/index.ctp:32 View/ConfigLabelSets/index.ctp:22
+#: View/ConfigLabelSets/index.ctp:81 View/ConfigLabels/index.ctp:28
+#: View/ConfigQuestionGroups/index.ctp:28 View/ConfigQuestions/index.ctp:38
+#: View/ConfigQuestions/view.ctp:98 View/ConfigSurveys/index - original.ctp:28
+#: View/ConfigSurveys/index.ctp:101 View/ConfigSurveys/index.ctp:179
+#: View/ConfigSurveys/index.ctp:243 View/ConfigSurveys/index.ctp:307
+#: View/ConfigSurveys/view.ctp:77 View/ConfigSurveys/view.ctp:122
+#: View/ConfigWheelSliceGroups/index.ctp:33
+#: View/ConfigWheelSlices/index.ctp:106 View/ConfigWheels/index Copy.ctp:31
+#: View/ConfigWheels/index.ctp:44 View/ConfigWheels/index.ctp:117
+#: View/ConfigWheels/index.ctp:173
+#: View/Elements/related-config-wheel-slice.ctp:30
+#: View/Elements/related-enneagram-tests.ctp:44
+#: View/Elements/related-meetings.ctp:28 View/Elements/related-packs.ctp:31
+#: View/Elements/related-payments.ctp:32 View/Elements/related-tasks.ctp:29
+#: View/Elements/related-wheels.ctp:28 View/EnneagramTests/index.ctp:50
+#: View/Links/index.ctp:141 View/Meetings/index.ctp:110 View/Packs/index.ctp:95
+#: View/Payments/index.ctp:112 View/Surveys/view Cópia.ctp:85 Cópia.ctp:122
+#: Cópia.ctp:167 View/Tasks/index.ctp:128 View/Users/index.ctp:64
+#: View/WheelSlices/index.ctp:34 View/Wheels/index.ctp:107
+#: View/Wheels/index.ctp:115
+msgid "Edit"
+msgstr "Alterar"
+
+#: View/Actions/index.ctp:32 View/ConfigAnswers/index.ctp:42
+#: View/ConfigLabels/index.ctp:38 View/ConfigQuestionGroups/index.ctp:38
+#: View/ConfigQuestions/index.ctp:48 View/ConfigSurveys/index - original.ctp:38
+#: View/EnneagramTests/index.ctp:60
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Página {:page} de  {:pages}, a mostrar {:current} registos de {:count} "
+"total, a iniciar no registo {:start}, a terminar no {:end}"
+
+#: View/Actions/index.ctp:37 View/ConfigAnswers/index.ctp:47
+#: View/ConfigLabels/index.ctp:43 View/ConfigQuestionGroups/index.ctp:43
+#: View/ConfigQuestions/index.ctp:53 View/ConfigSurveys/index - original.ctp:43
+#: View/EnneagramTests/index.ctp:65
+msgid "previous"
+msgstr "anterior"
+
+#: View/Actions/index.ctp:39 View/ConfigAnswers/index.ctp:49
+#: View/ConfigLabels/index.ctp:45 View/ConfigQuestionGroups/index.ctp:45
+#: View/ConfigQuestions/index.ctp:55 View/ConfigSurveys/index - original.ctp:45
+#: View/Elements/pagination.ctp:6 View/EnneagramTests/index.ctp:67
+msgid "next"
+msgstr "próximo"
+
+#: View/Actions/index.ctp:46 View/Actions/view.ctp:27
+msgid "New Action"
+msgstr "Nova Ação"
+
+#: View/Actions/view.ctp:2
+msgid "Action"
+msgstr "Ação"
+
+#: View/Actions/view.ctp:4 View/ConfigAnswers/view.ctp:4
+#: View/ConfigDefaults/view.ctp:16 View/ConfigLabelSets/view.ctp:4
+#: View/ConfigLabels/view.ctp:4 View/ConfigQuestionGroups/view.ctp:4
+#: View/ConfigQuestions/view.ctp:4 View/ConfigQuestions/view.ctp:76
+#: View/ConfigSurveys/view.ctp:4 View/ConfigSurveys/view.ctp:59
+#: View/ConfigSurveys/view.ctp:96 View/ConfigWheelSliceGroups/view.ctp:11
+#: View/ConfigWheelSlices/view.ctp:4 View/ConfigWheels/view.ctp:14
+#: View/Elements/related-enneagram-tests.ctp:6
+#: View/Elements/related-wheels.ctp:10 View/Elements/related-wheels.ctp:20
+#: View/EnneagramTests/view.ctp:4 View/Links/view.ctp:11
+#: View/Meetings/view.ctp:11 View/Packs/view.ctp:11 View/Payments/view.ctp:11
+#: View/Surveys/view - Cópia.ctp:4 Cópia.ctp:67 Cópia.ctp:104 Cópia.ctp:141
+#: View/Tasks/view.ctp:11 View/Users/view.ctp:33 View/WheelSlices/view.ctp:4
+#: View/Wheels/view.ctp:11
+msgid "Id"
+msgstr "ID"
+
+#: View/Actions/view.ctp:9 View/Tasks/view.ctp:5
+msgid "Task"
+msgstr "Tarefa"
+
+#: View/Actions/view.ctp:14 View/ConfigAnswers/view.ctp:34
+#: View/ConfigDefaults/view.ctp:26 View/ConfigLabelSets/view.ctp:14
+#: View/ConfigLabels/view.ctp:29 View/ConfigQuestionGroups/view.ctp:24
+#: View/ConfigQuestions/view.ctp:44 View/ConfigQuestions/view.ctp:82
+#: View/ConfigSurveys/view.ctp:29 View/ConfigSurveys/view.ctp:63
+#: View/ConfigSurveys/view.ctp:104 View/ConfigWheelSliceGroups/view.ctp:25
+#: View/ConfigWheelSlices/view.ctp:33 View/ConfigWheels/index.ctp:202
+#: View/ConfigWheels/index.ctp:212 View/ConfigWheels/view.ctp:24
+#: View/Elements/related-actions.ctp:12 View/Elements/related-actions.ctp:21
+#: View/Elements/related-config-wheel-slice.ctp:12
+#: View/Elements/related-config-wheel-slice.ctp:21
+#: View/Elements/related-enneagram-tests.ctp:20
+#: View/Elements/related-wheels.ctp:14 View/Elements/related-wheels.ctp:24
+#: View/EnneagramTests/view.ctp:74 View/Links/index.ctp:114
+#: View/Links/index.ctp:132 View/Links/view.ctp:36 View/Meetings/view.ctp:36
+#: View/Packs/view.ctp:56 View/Payments/view.ctp:25 View/Surveys/view -
+#: Cópia.ctp:29 Cópia.ctp:108 Cópia.ctp:149 View/Tasks/view.ctp:100
+#: View/Users/view.ctp:148 View/WheelSlices/view.ctp:39
+#: View/Wheels/index.ctp:86 View/Wheels/index.ctp:103 View/Wheels/view.ctp:31
+msgid "Created"
+msgstr "Criada"
+
+#: View/Actions/view.ctp:25
+msgid "Delete Action"
+msgstr "Excluir Ação"
+
+#: View/ConfigAnswers/form.ctp:5
+msgid "Add Answer"
+msgstr "Nova Resposta"
+
+#: View/ConfigAnswers/form.ctp:5
+msgid "Edit Answer"
+msgstr "Alterar Resposta"
+
+#: View/ConfigAnswers/form.ctp:10 View/ConfigAnswers/view.ctp:29
+#: View/ConfigQuestions/form.ctp:94 View/ConfigQuestions/view.ctp:14
+#: View/ConfigSurveys/index.ctp:44 View/ConfigSurveys/index.ctp:215
+#: View/ConfigSurveys/view.ctp:98 View/Surveys/view - Cópia.ctp:143
+msgid "Question"
+msgstr "Pergunta"
+
+#: View/ConfigAnswers/form.ctp:16
+msgid "---Select the Question---"
+msgstr "---Selecione a Pergunta---"
+
+#: View/ConfigAnswers/form.ctp:39 View/ConfigAnswers/view.ctp:9
+#: View/ConfigLabelSets/index.ctp:129 View/ConfigLabelSets/index.ctp:139
+#: View/ConfigLabels/form.ctp:20 View/ConfigLabels/view.ctp:9
+#: View/ConfigQuestions/form.ctp:59 View/ConfigQuestions/view.ctp:9
+#: View/ConfigQuestions/view.ctp:77 View/ConfigSurveys/view.ctp:97
+#: View/Surveys/view - Cópia.ctp:142
+msgid "Code"
+msgstr "Código"
+
+#: View/ConfigAnswers/form.ctp:42 View/ConfigLabels/form.ctp:23
+#: View/ConfigQuestions/form.ctp:65
+msgid "Insert the Code"
+msgstr "Digite o código"
+
+#: View/ConfigAnswers/form.ctp:47 View/ConfigAnswers/view.ctp:14
+#: View/ConfigQuestions/view.ctp:78 View/ConfigSurveys/index.ctp:279
+#: View/Surveys/index.ctp:97
+msgid "Answer"
+msgstr "Resposta"
+
+#: View/ConfigAnswers/form.ctp:50
+msgid "Insert the Answer"
+msgstr "Digite a resposta"
+
+#: View/ConfigAnswers/form.ctp:55 View/ConfigLabelSets/index.ctp:131
+#: View/ConfigLabelSets/index.ctp:141 View/ConfigLabels/form.ctp:36
+#: View/ConfigQuestionGroups/form.ctp:49 View/ConfigQuestions/form.ctp:77
+msgid "Order"
+msgstr "Ordem"
+
+#: View/ConfigAnswers/form.ctp:58 View/ConfigLabels/form.ctp:39
+#: View/ConfigQuestionGroups/form.ctp:52 View/ConfigQuestions/form.ctp:84
+msgid "Insert the Order"
+msgstr "Digite a ordem"
+
+#: View/ConfigAnswers/form.ctp:63 View/ConfigAnswers/view.ctp:24
+#: View/ConfigLabels/form.ctp:44 View/ConfigLabels/view.ctp:24
+#: View/ConfigQuestions/view.ctp:80
+msgid "Assessment Value"
+msgstr "Valor"
+
+#: View/ConfigAnswers/form.ctp:66 View/ConfigLabels/form.ctp:47
+msgid "Insert the Assessment Value"
+msgstr "Digite o Valor"
+
+#: View/ConfigAnswers/form.ctp:73 View/ConfigDefaults/form-version-1.ctp:357
+#: View/ConfigDefaults/form.ctp:337 View/ConfigLabelSets/form.ctp:21
+#: View/ConfigLabels/form.ctp:54 View/ConfigQuestionGroups/form.ctp:59
+#: View/ConfigQuestions/form.ctp:137 View/ConfigSurveys/form - version1.ctp:72
+#: View/ConfigSurveys/form.ctp:38 View/ConfigWheelSliceGroups/form.ctp:68
+#: View/ConfigWheelSlices/form.ctp:105 View/ConfigWheels/form.ctp:19
+#: View/Elements/wheel-of-life-html-css.ctp:111 View/Links/form.ctp:82
+#: View/Meetings/form.ctp:142 View/Packs/form.ctp:119
+#: View/Payments/form.ctp:126 View/Surveys/display.ctp:124
+#: View/Surveys/display.ctp:130 View/Surveys/form.ctp:32
+#: View/Tasks/form.ctp:304 View/Users/form.ctp:557 View/Wheels/form.ctp:88
+msgid "Save"
+msgstr "Salvar"
+
+#: View/ConfigAnswers/form.ctp:78 View/ConfigDefaults/form.ctp:342
+#: View/ConfigLabelSets/form.ctp:26 View/ConfigLabels/form.ctp:59
+#: View/ConfigQuestionGroups/form.ctp:64 View/ConfigQuestions/form.ctp:142
+#: View/ConfigSurveys/form.ctp:43 View/ConfigWheelSliceGroups/form.ctp:73
+#: View/ConfigWheelSlices/form.ctp:110 View/ConfigWheels/form.ctp:24
+#: View/Elements/alert-dialog.ctp:16
+#: View/Elements/wheel-of-life-html-css.ctp:117 View/Links/form.ctp:87
+#: View/Meetings/form.ctp:146 View/Packs/form.ctp:124
+#: View/Payments/form.ctp:131 View/Surveys/form.ctp:37 View/Tasks/form.ctp:309
+#: View/Users/form.ctp:562 View/Wheels/form.ctp:93
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: View/ConfigAnswers/index.ctp:2
+msgid "Config Answers"
+msgstr "Respostas"
+
+#: View/ConfigAnswers/index.ctp:56 View/ConfigAnswers/view.ctp:52
+msgid "New Config Answer"
+msgstr "Nova Resposta"
+
+#: View/ConfigAnswers/index.ctp:57 View/ConfigAnswers/view.ctp:53
+#: View/ConfigQuestions/view.ctp:61 View/ConfigSurveys/index - original.ctp:55
+#: View/ConfigSurveys/view.ctp:50 View/Surveys/view Cópia.ctp:58
+msgid "List Config Questions"
+msgstr "Listar Respostas"
+
+#: View/ConfigAnswers/index.ctp:58 View/ConfigAnswers/view.ctp:54
+msgid "New Question"
+msgstr "Nova Pergunta"
+
+#: View/ConfigAnswers/view.ctp:2
+msgid "Config Answer"
+msgstr "Resposta"
+
+#: View/ConfigAnswers/view.ctp:19 View/ConfigQuestions/view.ctp:79
+msgid "Answer Order"
+msgstr "Ordem"
+
+#: View/ConfigAnswers/view.ctp:39 View/ConfigDefaults/view.ctp:31
+#: View/ConfigLabelSets/view.ctp:19 View/ConfigLabels/view.ctp:34
+#: View/ConfigQuestionGroups/view.ctp:29 View/ConfigQuestions/view.ctp:49
+#: View/ConfigQuestions/view.ctp:83 View/ConfigSurveys/view.ctp:34
+#: View/ConfigSurveys/view.ctp:64 View/ConfigSurveys/view.ctp:105
+#: View/ConfigWheelSliceGroups/view.ctp:30 View/ConfigWheelSlices/view.ctp:38
+#: View/ConfigWheels/index.ctp:203 View/ConfigWheels/index.ctp:213
+#: View/ConfigWheels/view.ctp:29
+#: View/Elements/related-config-wheel-slice.ctp:13
+#: View/Elements/related-config-wheel-slice.ctp:22
+#: View/Elements/related-enneagram-tests.ctp:21
+#: View/Elements/related-wheels.ctp:15 View/Elements/related-wheels.ctp:25
+#: View/EnneagramTests/view.ctp:79 View/Links/view.ctp:41
+#: View/Meetings/view.ctp:41 View/Packs/view.ctp:61 View/Payments/view.ctp:27
+#: View/Surveys/view - Cópia.ctp:109 Cópia.ctp:150 View/Tasks/view.ctp:105
+#: View/Users/view.ctp:153 View/WheelSlices/view.ctp:44
+#: View/Wheels/index.ctp:87 View/Wheels/index.ctp:104 View/Wheels/view.ctp:36
+msgid "Modified"
+msgstr "Modificado"
+
+#: View/ConfigAnswers/view.ctp:49
+msgid "Edit Config Answer"
+msgstr "Alterar Resposta"
+
+#: View/ConfigAnswers/view.ctp:50
+msgid "Delete Config Answer"
+msgstr "Excluir Resposta"
+
+#: View/ConfigAnswers/view.ctp:51 View/ConfigQuestions/index.ctp:67
+#: View/ConfigQuestions/view.ctp:67
+msgid "List Config Answers"
+msgstr "Listar Respostas"
+
+#: View/ConfigDefaults/form-version-1.ctp:4 View/ConfigDefaults/form.ctp:4
+msgid "Edit Defaults"
+msgstr "Alterar Definições"
+
+#: View/ConfigDefaults/form-version-1.ctp:277 View/ConfigDefaults/form.ctp:277
+#: View/ConfigDefaults/index.ctp:14 View/ConfigDefaults/index.ctp:23
+#: View/Users/form.ctp:423 View/Users/view.ctp:88
+msgid "Country"
+msgstr "País"
+
+#: View/ConfigDefaults/form-version-1.ctp:282 View/ConfigDefaults/form.ctp:283
+#: View/Users/form.ctp:428
+msgid "---Select the country---"
+msgstr "---Selecione o País---"
+
+#: View/ConfigDefaults/form-version-1.ctp:299 View/ConfigDefaults/form.ctp:300
+#: View/ConfigDefaults/index.ctp:15 View/ConfigDefaults/index.ctp:24
+#: View/Users/form.ctp:445 View/Users/view.ctp:93
+msgid "Language"
+msgstr "Idioma"
+
+#: View/ConfigDefaults/form-version-1.ctp:304 View/ConfigDefaults/form.ctp:306
+#: View/Users/form.ctp:450
+msgid "---Select the language---"
+msgstr "---Selecione o Idioma---"
+
+#: View/ConfigDefaults/form-version-1.ctp:319 View/ConfigDefaults/form.ctp:321
+#: View/ConfigDefaults/index.ctp:16 View/ConfigDefaults/index.ctp:25
+#: View/Users/form.ctp:465 View/Users/view.ctp:98
+msgid "Currency"
+msgstr "Moeda"
+
+#: View/ConfigDefaults/form-version-1.ctp:324 View/ConfigDefaults/form.ctp:327
+#: View/Users/form.ctp:470
+msgid "---Select the currency---"
+msgstr "---Selecione a Moeda---"
+
+#: View/ConfigDefaults/form-version-1.ctp:332
+msgid "Rows By Page"
+msgstr "Linhas por Página"
+
+#: View/ConfigDefaults/form-version-1.ctp:334
+msgid "Insert the Rows By Page"
+msgstr "Digite as Linhas por Página"
+
+#: View/ConfigDefaults/form-version-1.ctp:339
+msgid "Show Only Active Packs"
+msgstr "Mostrar apenas Pacotes Ativos"
+
+#: View/ConfigDefaults/form-version-1.ctp:342 View/ConfigSurveys/form -
+#: version1.ctp:38 version1.ctp:56 View/ConfigSurveys/form.ctp:21
+msgid "Yes"
+msgstr "Sim"
+
+#: View/ConfigDefaults/form-version-1.ctp:343 View/ConfigSurveys/form -
+#: version1.ctp:39 version1.ctp:57 View/ConfigSurveys/form.ctp:22
+msgid "No"
+msgstr "Não"
+
+#: View/ConfigDefaults/form-version-1.ctp:348
+msgid "---Select the option---"
+msgstr "---Selecione a Opçãol---"
+
+#: View/ConfigDefaults/index.ctp:4 View/ConfigSurveys/index.ctp:4
+#: View/ConfigWheelSliceGroups/index.ctp:4 View/ConfigWheelSlices/index.ctp:5
+#: View/ConfigWheels/index - Copy.ctp:4 View/ConfigWheels/index.ctp:4
+#: View/Elements/top-navbar-admin.ctp:61 View/Pages/config.ctp:3
+msgid "Configuration"
+msgstr "Definições"
+
+#: View/ConfigDefaults/index.ctp:9 View/Pages/config.ctp:9
+msgid "System Defaults"
+msgstr "Padrões do Sistema"
+
+#: View/ConfigDefaults/index.ctp:29 View/ConfigSurveys/index.ctp:359
+#: View/ConfigWheelSliceGroups/index.ctp:29
+#: View/ConfigWheelSlices/index.ctp:102 View/ConfigWheels/index - Copy.ctp:27
+#: View/ConfigWheels/index.ctp:217
+#: View/Elements/related-config-wheel-slice.ctp:26
+#: View/Elements/related-meetings.ctp:24 View/Elements/related-packs.ctp:26
+#: View/Elements/related-payments.ctp:28 View/Elements/related-tasks.ctp:25
+#: View/Links/index.ctp:137 View/Meetings/index.ctp:106 View/Packs/index.ctp:91
+#: View/Pages/config.ctp:8 View/Pages/config.ctp:22 View/Pages/config.ctp:36
+#: View/Pages/config.ctp:53 View/Payments/index.ctp:108
+#: View/Tasks/index.ctp:124 View/Users/index.ctp:20 View/Wheels/index.ctp:111
+msgid "Select"
+msgstr "Selecione"
+
+#: View/ConfigDefaults/view.ctp:7 View/ConfigWheelSliceGroups/form.ctp:13
+#: View/ConfigWheelSlices/form.ctp:13 View/ConfigWheelSlices/view.ctp:28
+#: View/ConfigWheels/view.ctp:5
+msgid "Config Wheel"
+msgstr "Roda"
+
+#: View/ConfigDefaults/view.ctp:21 View/ConfigLabelSets/form.ctp:11
+#: View/ConfigLabelSets/index.ctp:130 View/ConfigLabelSets/index.ctp:140
+#: View/ConfigLabelSets/view.ctp:9 View/ConfigLabels/form.ctp:28
+#: View/ConfigLabels/view.ctp:14 View/ConfigQuestionGroups/form.ctp:41
+#: View/ConfigQuestionGroups/view.ctp:9 View/ConfigSurveys/form -
+#: version1.ctp:9 View/ConfigSurveys/form.ctp:9 View/ConfigSurveys/view.ctp:9
+#: View/ConfigSurveys/view.ctp:60 View/ConfigWheelSliceGroups/form.ctp:41
+#: View/ConfigWheelSliceGroups/index.ctp:16
+#: View/ConfigWheelSliceGroups/index.ctp:24
+#: View/ConfigWheelSliceGroups/view.ctp:16 View/ConfigWheelSlices/form.ctp:69
+#: View/ConfigWheelSlices/index.ctp:77 View/ConfigWheelSlices/index.ctp:92
+#: View/ConfigWheelSlices/view.ctp:9 View/ConfigWheels/form.ctp:9
+#: View/ConfigWheels/index Copy.ctp:16 Copy.ctp:23
+#: View/ConfigWheels/index.ctp:201 View/ConfigWheels/index.ctp:211
+#: View/ConfigWheels/view.ctp:19 View/Elements/related-config-wheel-slice.ctp:9
+#: View/Elements/related-config-wheel-slice.ctp:18
+#: View/Elements/related-enneagram-tests.ctp:7
+#: View/Elements/related-tasks.ctp:11 View/Elements/related-tasks.ctp:19
+#: View/Elements/related-wheel-slices.ctp:11
+#: View/Elements/related-wheel-slices.ctp:19
+#: View/Elements/related-wheels.ctp:11 View/Elements/related-wheels.ctp:21
+#: View/EnneagramTests/view.ctp:9 View/Links/form.ctp:67
+#: View/Links/index.ctp:78 View/Links/index.ctp:85 View/Links/index.ctp:112
+#: View/Links/index.ctp:130 View/Links/view.ctp:26 View/Packs/form.ctp:54
+#: View/Packs/index.ctp:66 View/Packs/index.ctp:83 View/Packs/view.ctp:21
+#: View/Surveys/view Cópia.ctp:9 Cópia.ctp:105 View/Tasks/form.ctp:82
+#: View/Tasks/index.ctp:83 View/Tasks/index.ctp:101 View/Tasks/view.ctp:26
+#: View/WheelSlices/view.ctp:9 View/Wheels/form.ctp:64 View/Wheels/index.ctp:85
+#: View/Wheels/index.ctp:102 View/Wheels/view.ctp:16
+msgid "Title"
+msgstr "Título"
+
+#: View/ConfigDefaults/view.ctp:45 View/ConfigWheels/view.ctp:43
+msgid "Edit Config Wheel"
+msgstr "Alterar Roda"
+
+#: View/ConfigDefaults/view.ctp:46 View/ConfigWheels/view.ctp:44
+msgid "Delete Config Wheel"
+msgstr "Excluir Roda"
+
+#: View/ConfigDefaults/view.ctp:47 View/ConfigWheelSliceGroups/view.ctp:48
+#: View/ConfigWheelSlices/view.ctp:54 View/ConfigWheels/view.ctp:45
+msgid "List Config Wheels"
+msgstr "Listar Rodas"
+
+#: View/ConfigDefaults/view.ctp:48 View/ConfigWheelSliceGroups/view.ctp:49
+#: View/ConfigWheelSlices/view.ctp:55 View/ConfigWheels/view.ctp:46
+msgid "New Config Wheel"
+msgstr "Nova Roda"
+
+#: View/ConfigDefaults/view.ctp:49 View/ConfigWheelSliceGroups/view.ctp:46
+#: View/ConfigWheelSlices/view.ctp:52 View/ConfigWheels/view.ctp:47
+msgid "List Config Wheel Slice Groups"
+msgstr "Listar Grupos de Fatias das Rodas"
+
+#: View/ConfigDefaults/view.ctp:50 View/ConfigWheelSliceGroups/view.ctp:47
+#: View/ConfigWheelSlices/view.ctp:53 View/ConfigWheels/view.ctp:48
+msgid "New Config Wheel Slice Group"
+msgstr "Novo Grupo de Fatias da Roda"
+
+#: View/ConfigDefaults/view.ctp:51 View/ConfigWheelSliceGroups/view.ctp:50
+#: View/ConfigWheelSlices/view.ctp:50 View/ConfigWheels/view.ctp:49
+msgid "List Config Wheel Slices"
+msgstr "Listar Fatias da Roda"
+
+#: View/ConfigDefaults/view.ctp:52 View/ConfigWheelSliceGroups/view.ctp:51
+#: View/ConfigWheelSlices/view.ctp:51 View/ConfigWheels/view.ctp:50
+#: View/Elements/related-config-wheel-slice.ctp:42
+msgid "New Config Wheel Slice"
+msgstr "Nova Fatia da Roda"
+
+#: View/ConfigLabelSets/form.ctp:5
+msgid "Add Label Set"
+msgstr "Incluir Rótulos de Opções de Resposta"
+
+#: View/ConfigLabelSets/form.ctp:5
+msgid "Edit Label Set"
+msgstr "Alterar Conjunto de Rótulos de Opções de Resposta"
+
+#: View/ConfigLabelSets/form.ctp:14 View/ConfigWheelSliceGroups/form.ctp:44
+#: View/ConfigWheelSlices/form.ctp:72 View/ConfigWheels/form.ctp:12
+#: View/Packs/form.ctp:57 View/Tasks/form.ctp:89 View/Wheels/form.ctp:67
+msgid "Insert the title"
+msgstr "Digite o título"
+
+#: View/ConfigLabelSets/index.ctp:33 View/ConfigLabelSets/index.ctp:92
+#: View/ConfigSurveys/index.ctp:94 View/ConfigSurveys/index.ctp:173
+#: View/ConfigSurveys/index.ctp:237 View/ConfigSurveys/index.ctp:301
+#: View/ConfigWheelSliceGroups/index.ctp:10 View/ConfigWheelSlices/index.ctp:69
+#: View/ConfigWheels/index - Copy.ctp:10 View/ConfigWheels/index.ctp:38
+#: View/ConfigWheels/index.ctp:110 View/ConfigWheels/index.ctp:167
+#: View/Links/index.ctp:102 View/Meetings/index.ctp:71 View/Packs/index.ctp:56
+#: View/Payments/index.ctp:71 View/Surveys/index.ctp:123
+#: View/Tasks/index.ctp:72 View/Wheels/index.ctp:73
+msgid "New"
+msgstr "Novo"
+
+#: View/ConfigLabelSets/index.ctp:48 View/ConfigSurveys/index.ctp:26
+msgid "---Select the Label Set---"
+msgstr "---Selecione o Conjunto de Rótulos---"
+
+#: View/ConfigLabelSets/index.ctp:107
+msgid "---Select the Label---"
+msgstr "---Selecione o Rótulo---"
+
+#: View/ConfigLabelSets/index.ctp:124
+msgid "Labels"
+msgstr "Rótulos de Opções de Resposta"
+
+#: View/ConfigLabelSets/index.ctp:132 View/ConfigLabelSets/index.ctp:142
+#: View/Elements/related-payments.ctp:23
+#: View/Elements/related-wheel-slices.ctp:13
+#: View/Elements/related-wheel-slices.ctp:27 View/WheelSlices/view.ctp:14
+msgid "Value"
+msgstr "Valor"
+
+#: View/ConfigLabelSets/view.ctp:2
+msgid "Config Label Set"
+msgstr "Conjunto de Rótulos de Opções de Resposta"
+
+#: View/ConfigLabelSets/view.ctp:29
+msgid "Edit Config Label Set"
+msgstr "Alterar Conjunto de Rótulos de Opções de Resposta"
+
+#: View/ConfigLabelSets/view.ctp:30
+msgid "Delete Config Label Set"
+msgstr "Excluir Conjunto de Rótulos de Opções de Resposta"
+
+#: View/ConfigLabelSets/view.ctp:31
+msgid "List Config Label Sets"
+msgstr "Listar Conjunto de Rótulos de Opções de Resposta"
+
+#: View/ConfigLabelSets/view.ctp:32
+msgid "New Config Label Set"
+msgstr "Novo Conjunto de Rótulos de Opções de Resposta"
+
+#: View/ConfigLabels/form.ctp:5
+msgid "Add Label"
+msgstr "Incluir Rótulo"
+
+#: View/ConfigLabels/form.ctp:5
+msgid "Edit Label"
+msgstr "Alterar Rótulo"
+
+#: View/ConfigLabels/form.ctp:31 View/ConfigQuestionGroups/form.ctp:44
+#: View/ConfigSurveys/form - version1.ctp:11 View/ConfigSurveys/form.ctp:12
+msgid "Insert the Title"
+msgstr "Digite o título"
+
+#: View/ConfigLabels/index.ctp:2
+msgid "Config Labels"
+msgstr "Rótulos de Opções de Resposta"
+
+#: View/ConfigLabels/index.ctp:52 View/ConfigLabels/view.ctp:47
+msgid "New Config Label"
+msgstr "Nova Rótulo"
+
+#: View/ConfigLabels/view.ctp:2
+msgid "Config Label"
+msgstr "Rótulo"
+
+#: View/ConfigLabels/view.ctp:19
+msgid "Label Order"
+msgstr "Ordem"
+
+#: View/ConfigLabels/view.ctp:44
+msgid "Edit Config Label"
+msgstr "Alterar Rótulo"
+
+#: View/ConfigLabels/view.ctp:45
+msgid "Delete Config Label"
+msgstr "Excluir Rótulo"
+
+#: View/ConfigLabels/view.ctp:46
+msgid "List Config Labels"
+msgstr "Listar Rótulos de Opções de Resposta"
+
+#: View/ConfigQuestionGroups/form.ctp:5
+msgid "Add Question Group"
+msgstr "Novo Grupo de Perguntas"
+
+#: View/ConfigQuestionGroups/form.ctp:5
+msgid "Edit Question Group"
+msgstr "Alterar Grupo de Perguntas"
+
+#: View/ConfigQuestionGroups/form.ctp:10 View/ConfigQuestionGroups/view.ctp:19
+#: View/ConfigQuestions/form.ctp:11 View/ConfigQuestions/view.ctp:19
+#: View/ConfigSurveys/index.ctp:44 View/ConfigSurveys/index.ctp:73
+#: View/Surveys/form.ctp:24 View/Surveys/view - Cópia.ctp:2
+msgid "Survey"
+msgstr "Questionário"
+
+#: View/ConfigQuestionGroups/form.ctp:17 View/ConfigQuestions/form.ctp:97
+msgid "Insert the Question"
+msgstr "Digite a Pergunta"
+
+#: View/ConfigQuestionGroups/form.ctp:18 View/ConfigQuestions/form.ctp:18
+#: View/ConfigSurveys/index.ctp:83
+msgid "---Select the Survey---"
+msgstr "---Selecione o Questionário---"
+
+#: View/ConfigQuestionGroups/index.ctp:2
+msgid "Config Question Groups"
+msgstr "Grupo de Perguntas"
+
+#: View/ConfigQuestionGroups/index.ctp:52 View/ConfigQuestionGroups/view.ctp:42
+#: View/Surveys/view - Cópia.ctp:57 Cópia.ctp:132
+msgid "New Config Question Group"
+msgstr "Novo Grupo de Perguntas"
+
+#: View/ConfigQuestionGroups/index.ctp:53 View/ConfigQuestionGroups/view.ctp:43
+#: View/ConfigQuestions/index.ctp:63 View/ConfigQuestions/view.ctp:63
+#: View/ConfigSurveys/view.ctp:46 View/Surveys/view - Cópia.ctp:48
+msgid "List Config Surveys"
+msgstr "Listar Questionários"
+
+#: View/ConfigQuestionGroups/index.ctp:54 View/ConfigQuestionGroups/view.ctp:44
+#: View/ConfigQuestions/index.ctp:64 View/ConfigQuestions/view.ctp:64
+#: View/Surveys/view - Cópia.ctp:47
+msgid "New Survey"
+msgstr "Novo Questionário"
+
+#: View/ConfigQuestionGroups/view.ctp:2
+msgid "Config Question Group"
+msgstr "Grupo de Perguntas"
+
+#: View/ConfigQuestionGroups/view.ctp:14 View/ConfigSurveys/view.ctp:61
+#: View/Surveys/view - Cópia.ctp:106
+msgid "Group Order"
+msgstr "Ordem"
+
+#: View/ConfigQuestionGroups/view.ctp:39
+msgid "Edit Config Question Group"
+msgstr "Alterar Grupo de Perguntas"
+
+#: View/ConfigQuestionGroups/view.ctp:40
+msgid "Delete Config Question Group"
+msgstr "Excluir Grupo de Perguntas"
+
+#: View/ConfigQuestionGroups/view.ctp:41 View/ConfigQuestions/index.ctp:65
+#: View/ConfigQuestions/view.ctp:65 View/ConfigSurveys/index - original.ctp:53
+#: View/ConfigSurveys/view.ctp:48 View/Surveys/view Cópia.ctp:56
+msgid "List Config Question Groups"
+msgstr "Listar Grupo de Perguntas"
+
+#: View/ConfigQuestions/form.ctp:6
+msgid "Add Question"
+msgstr "Incluir Pergunta"
+
+#: View/ConfigQuestions/form.ctp:6
+msgid "Edit Question"
+msgstr "Alterar Pergunta"
+
+#: View/ConfigQuestions/form.ctp:40 View/ConfigQuestions/view.ctp:24
+msgid "Question Group"
+msgstr "Grupo de Perguntas"
+
+#: View/ConfigQuestions/form.ctp:47 View/ConfigSurveys/index.ctp:161
+msgid "---Select the Question Group---"
+msgstr "---Selecione o Grupo de Perguntas---"
+
+#: View/ConfigQuestions/form.ctp:102 View/ConfigQuestions/view.ctp:29
+#: View/ConfigSurveys/view.ctp:101 View/Surveys/view - Cópia.ctp:146
+msgid "Question Type"
+msgstr "Tipo de Pergunta"
+
+#: View/ConfigQuestions/form.ctp:106
+msgid "Single Choice questions"
+msgstr "Pergunta de "
+
+#: View/ConfigQuestions/form.ctp:107
+msgid "List (radio)"
+msgstr "Lista (radio)"
+
+#: View/ConfigQuestions/form.ctp:108
+msgid "List (dropdown)"
+msgstr "Lista (dropdown)"
+
+#: View/ConfigQuestions/form.ctp:110
+msgid "Multiple Choice questions"
+msgstr "Perguntas de Múltiplas Escolhas"
+
+#: View/ConfigQuestions/form.ctp:111
+msgid "Multiple (checkbox)"
+msgstr "Múltipla (checkbox)"
+
+#: View/ConfigQuestions/form.ctp:113
+msgid "Text questions"
+msgstr "Texto"
+
+#: View/ConfigQuestions/form.ctp:114
+msgid "Text (textarea)"
+msgstr "Texto (textarea)"
+
+#: View/ConfigQuestions/form.ctp:120 View/ConfigSurveys/form - version1.ctp:27
+#: View/ConfigWheels/index.ctp:26
+msgid "---Select the type---"
+msgstr "---Selecione o Tipo---"
+
+#: View/ConfigQuestions/form.ctp:128 View/ConfigQuestions/view.ctp:34
+#: View/ConfigSurveys/view.ctp:102 View/Surveys/view - Cópia.ctp:147
+msgid "Mandatory"
+msgstr "Obrigatório"
+
+#: View/ConfigQuestions/index.ctp:2
+msgid "Config Questions"
+msgstr "Perguntas"
+
+#: View/ConfigQuestions/index.ctp:62 View/ConfigQuestions/view.ctp:62
+#: View/Surveys/view - Cópia.ctp:59 Cópia.ctp:177
+msgid "New Config Question"
+msgstr "Nova Pergunta"
+
+#: View/ConfigQuestions/index.ctp:66 View/ConfigQuestions/view.ctp:66
+msgid "New Question Group"
+msgstr "Novo Grupo de Perguntas"
+
+#: View/ConfigQuestions/index.ctp:68 View/ConfigQuestions/view.ctp:68
+#: View/ConfigQuestions/view.ctp:108 View/Surveys/view - Cópia.ctp:55
+#: Cópia.ctp:95
+msgid "New Answer"
+msgstr "Nova Resposta"
+
+#: View/ConfigQuestions/view.ctp:2
+msgid "Config Question"
+msgstr "Pergunta"
+
+#: View/ConfigQuestions/view.ctp:39 View/ConfigSurveys/view.ctp:103
+#: View/Surveys/view - Cópia.ctp:148
+msgid "Question Order"
+msgstr "Ordem"
+
+#: View/ConfigQuestions/view.ctp:59
+msgid "Edit Config Question"
+msgstr "Alterar Pergunta"
+
+#: View/ConfigQuestions/view.ctp:60
+msgid "Delete Config Question"
+msgstr "Excluir Pergunta"
+
+#: View/ConfigQuestions/view.ctp:72
+msgid "Related Config Answers"
+msgstr "Respostas Relacionadas"
+
+#: View/ConfigQuestions/view.ctp:81
+msgid "Question Id"
+msgstr "ID"
+
+#: View/ConfigSurveys/form - version1.ctp:4 View/ConfigSurveys/form.ctp:4
+#: View/Surveys/form.ctp:6
+msgid "Add Survey"
+msgstr "Incluir Questionário"
+
+#: View/ConfigSurveys/form - version1.ctp:4 View/ConfigSurveys/form.ctp:4
+#: View/Surveys/form.ctp:6 View/Surveys/view Cópia.ctp:44
+msgid "Edit Survey"
+msgstr "Alterar Questionário"
+
+#: View/ConfigSurveys/form - version1.ctp:16 View/ConfigSurveys/view.ctp:14
+msgid "Format"
+msgstr "Formato"
+
+#: View/ConfigSurveys/form - version1.ctp:19
+msgid "Question by Question"
+msgstr "Pergunta por pergunta"
+
+#: View/ConfigSurveys/form - version1.ctp:20
+msgid "Group by group"
+msgstr "Grupo por grupo"
+
+#: View/ConfigSurveys/form - version1.ctp:21
+msgid "All in one"
+msgstr "Tudo em um"
+
+#: View/ConfigSurveys/form - version1.ctp:35 View/ConfigSurveys/form.ctp:17
+msgid "Show \"No Answer\"?"
+msgstr "Mostrar \"Sem Resposta\"?"
+
+#: View/ConfigSurveys/form - version1.ctp:45 version1.ctp:63
+#: View/ConfigSurveys/form.ctp:28
+msgid "---Select---"
+msgstr "---Selecione---"
+
+#: View/ConfigSurveys/form - version1.ctp:53
+msgid "Show \"There are X questions in this survey\"?"
+msgstr "Monstrar \"Existem X perguntas neste questionário\"?"
+
+#: View/ConfigSurveys/index - original.ctp:2
+msgid "Config Surveys"
+msgstr "Questionários"
+
+#: View/ConfigSurveys/index - original.ctp:52 View/ConfigSurveys/view.ctp:47
+#: View/Surveys/view Cópia.ctp:49
+msgid "New Config Survey"
+msgstr "Novo Questionário"
+
+#: View/ConfigSurveys/index - original.ctp:54 View/ConfigSurveys/view.ctp:49
+#: View/ConfigSurveys/view.ctp:87
+msgid "New Question Groups"
+msgstr "Novo Grupo de Perguntas"
+
+#: View/ConfigSurveys/index - original.ctp:56 View/ConfigSurveys/view.ctp:51
+#: View/ConfigSurveys/view.ctp:132
+msgid "New Questions"
+msgstr "Nova Perguntas"
+
+#: View/ConfigSurveys/index.ctp:5 View/Elements/sidebar-admin.ctp:57
+#: View/Elements/sidebar-user.ctp:35 View/Pages/config.ctp:37
+#: View/Surveys/index.ctp:74 View/Surveys/index.ctp:120
+msgid "Surveys"
+msgstr "Questionários"
+
+#: View/ConfigSurveys/index.ctp:16 View/Pages/config.ctp:54
+msgid "Label Sets"
+msgstr "Conjunto de Rótulos de Opções de Resposta"
+
+#: View/ConfigSurveys/index.ctp:43
+msgid "---Select the Target---"
+msgstr "---Selecione o Alvo---"
+
+#: View/ConfigSurveys/index.ctp:44 View/ConfigSurveys/index.ctp:151
+#: View/ConfigWheels/index.ctp:89 View/Elements/related-wheel-slices.ctp:10
+#: View/Elements/related-wheel-slices.ctp:18 View/WheelSlices/view.ctp:29
+msgid "Group"
+msgstr "Grupo"
+
+#: View/ConfigSurveys/index.ctp:53
+msgid "Apply"
+msgstr "Aplicar"
+
+#: View/ConfigSurveys/index.ctp:133 View/ConfigWheels/index.ctp:75
+msgid "Activate"
+msgstr "Ativar"
+
+#: View/ConfigSurveys/index.ctp:225
+msgid "---Select the Questions---"
+msgstr "---Selecione a Pergunta---"
+
+#: View/ConfigSurveys/index.ctp:289
+msgid "---Select the Answers---"
+msgstr "---Selecione a Resposta---"
+
+#: View/ConfigSurveys/index.ctp:336
+msgid "Active Surveys"
+msgstr "Questionários Ativos"
+
+#: View/ConfigSurveys/index.ctp:362 View/ConfigWheels/index.ctp:220
+msgid "Copy"
+msgstr "Copiar"
+
+#: View/ConfigSurveys/index.ctp:362 View/ConfigWheels/index.ctp:220
+#, php-format
+msgid "Are you sure you want to copy # %s?"
+msgstr "Tem certeza de que quer copiar # %s?"
+
+#: View/ConfigSurveys/index.ctp:382 View/ConfigWheels/index.ctp:237
+msgid "Activation"
+msgstr "Ativação"
+
+#: View/ConfigSurveys/index.ctp:383
+msgid "Confirm the activation of the survey?"
+msgstr "Confirma a ativação do questionário?"
+
+#: View/ConfigSurveys/view.ctp:2 View/Surveys/view - Cópia.ctp:14
+msgid "Config Survey"
+msgstr "Questionário"
+
+#: View/ConfigSurveys/view.ctp:19
+msgid "Shownoanswer"
+msgstr "Inlcuir Opção Sem Resposta"
+
+#: View/ConfigSurveys/view.ctp:24
+msgid "Showxquestions"
+msgstr "Mostrar o Total de Questões"
+
+#: View/ConfigSurveys/view.ctp:44
+msgid "Edit Config Survey"
+msgstr "Alterar Questionário"
+
+#: View/ConfigSurveys/view.ctp:45
+msgid "Delete Config Survey"
+msgstr "Excluir Questionário"
+
+#: View/ConfigSurveys/view.ctp:55 View/Surveys/view - Cópia.ctp:100
+msgid "Related Config Question Groups"
+msgstr "Grupo de Perguntas Relacionados"
+
+#: View/ConfigSurveys/view.ctp:62 View/ConfigSurveys/view.ctp:99
+#: View/Surveys/view - Cópia.ctp:68 Cópia.ctp:107 Cópia.ctp:144
+msgid "Survey Id"
+msgstr "ID"
+
+#: View/ConfigSurveys/view.ctp:92 View/Surveys/view - Cópia.ctp:137
+msgid "Related Config Questions"
+msgstr "Perguntas Relacionadas"
+
+#: View/ConfigSurveys/view.ctp:100 View/Surveys/view - Cópia.ctp:145
+msgid "Question Group Id"
+msgstr "ID"
+
+#: View/ConfigWheelSliceGroups/form.ctp:7
+msgid "Add Wheel Slice Group"
+msgstr "Novo Grupo de Fatias da Roda"
+
+#: View/ConfigWheelSliceGroups/form.ctp:7
+msgid "Edit Wheel Slice Group"
+msgstr "Alterar Grupo de Fatias da Roda"
+
+#: View/ConfigWheelSliceGroups/form.ctp:19 View/ConfigWheelSlices/form.ctp:19
+msgid "---Select the wheel----"
+msgstr "---Selecione a Roda---"
+
+#: View/ConfigWheelSliceGroups/form.ctp:49
+#: View/ConfigWheelSliceGroups/index.ctp:17
+#: View/ConfigWheelSliceGroups/index.ctp:25 View/ConfigWheelSlices/form.ctp:85
+#: View/ConfigWheelSlices/index.ctp:79 View/ConfigWheelSlices/index.ctp:98
+msgid "Position"
+msgstr "Posição"
+
+#: View/ConfigWheelSliceGroups/form.ctp:55 View/ConfigWheelSlices/form.ctp:91
+msgid "Insert the position"
+msgstr "Digite a posição"
+
+#: View/ConfigWheelSliceGroups/index.ctp:9
+msgid "Config Wheel Slice Groups"
+msgstr "Grupos de Fatias"
+
+#: View/ConfigWheelSliceGroups/view.ctp:5 View/ConfigWheelSlices/form.ctp:41
+#: View/ConfigWheelSlices/view.ctp:23
+msgid "Config Wheel Slice Group"
+msgstr "Grupo de Fatias"
+
+#: View/ConfigWheelSliceGroups/view.ctp:44
+msgid "Edit Config Wheel Slice Group"
+msgstr "Alterar Grupo de Fatias da Roda"
+
+#: View/ConfigWheelSliceGroups/view.ctp:45
+msgid "Delete Config Wheel Slice Group"
+msgstr "Excluir Grupo de Fatias da Roda"
+
+#: View/ConfigWheelSlices/form.ctp:7 View/WheelSlices/add.ctp:4
+msgid "Add Wheel Slice"
+msgstr "Incluir Fatia da Roda"
+
+#: View/ConfigWheelSlices/form.ctp:7 View/WheelSlices/edit.ctp:4
+#: View/WheelSlices/view.ctp:54
+msgid "Edit Wheel Slice"
+msgstr "Alterar Fatia da Roda"
+
+#: View/ConfigWheelSlices/form.ctp:47
+msgid "---Select the slice group----"
+msgstr "---Selecione o Grupo de Fatias---"
+
+#: View/ConfigWheelSlices/form.ctp:77 View/ConfigWheelSlices/index.ctp:78
+#: View/ConfigWheelSlices/index.ctp:93 View/ConfigWheelSlices/view.ctp:14
+#: View/Elements/related-config-wheel-slice.ctp:10
+#: View/Elements/related-config-wheel-slice.ctp:19 View/WheelSlices/view.ctp:19
+msgid "Color"
+msgstr "Cor"
+
+#: View/ConfigWheelSlices/form.ctp:80
+msgid "Insert the color"
+msgstr "Digite a cor"
+
+#: View/ConfigWheelSlices/index.ctp:28 View/ConfigWheelSlices/index.ctp:43
+#: View/Links/index.ctp:28 View/Links/index.ctp:43 View/Meetings/index.ctp:28
+#: View/Meetings/index.ctp:43 View/Packs/index.ctp:28
+#: View/Payments/index.ctp:28 View/Payments/index.ctp:43
+#: View/Surveys/index.ctp:28 View/Surveys/index.ctp:43 View/Tasks/index.ctp:28
+#: View/Tasks/index.ctp:43 View/Wheels/index.ctp:28 View/Wheels/index.ctp:43
+msgid "---All---"
+msgstr "---Todos---"
+
+#: View/ConfigWheelSlices/index.ctp:54 View/Links/index.ctp:54
+#: View/Meetings/index.ctp:54 View/Packs/index.ctp:39
+#: View/Payments/index.ctp:54 View/Surveys/index.ctp:54 View/Tasks/index.ctp:54
+#: View/Wheels/index.ctp:54
+msgid "Filter"
+msgstr "Filtro"
+
+#: View/ConfigWheelSlices/index.ctp:68
+msgid "Config Wheel Slices"
+msgstr "Fatias"
+
+#: View/ConfigWheelSlices/index.ctp:75 View/ConfigWheelSlices/index.ctp:86
+#: View/ConfigWheels/index.ctp:16 View/WheelSlices/view.ctp:34
+#: View/Wheels/view.ctp:5
+msgid "Wheel"
+msgstr "Roda"
+
+#: View/ConfigWheelSlices/index.ctp:76 View/ConfigWheelSlices/index.ctp:89
+msgid "Slice Group"
+msgstr "Grupo de Fatias"
+
+#: View/ConfigWheelSlices/view.ctp:2
+msgid "Config Wheel Slice"
+msgstr "Fatia da Roda"
+
+#: View/ConfigWheelSlices/view.ctp:48
+msgid "Edit Config Wheel Slice"
+msgstr "Alterar Fatia da Roda"
+
+#: View/ConfigWheelSlices/view.ctp:49
+msgid "Delete Config Wheel Slice"
+msgstr "Excluir Fatia da Roda"
+
+#: View/ConfigWheels/form.ctp:4 View/Wheels/form.ctp:5
+msgid "Add Wheel"
+msgstr "Incluir Roda"
+
+#: View/ConfigWheels/form.ctp:4 View/Wheels/form.ctp:5 View/Wheels/view.ctp:50
+msgid "Edit Wheel"
+msgstr "Alterar Roda"
+
+#: View/ConfigWheels/index - Copy.ctp:9
+msgid "Config Wheels"
+msgstr "Rodas"
+
+#: View/ConfigWheels/index.ctp:5 View/Elements/sidebar-admin.ctp:60
+#: View/Elements/sidebar-user.ctp:39 View/Pages/config.ctp:23
+#: View/Wheels/index.ctp:70
+msgid "Wheels"
+msgstr "Rodas"
+
+#: View/ConfigWheels/index.ctp:99
+msgid "---Select the group---"
+msgstr "---Selecione o Grupo---"
+
+#: View/ConfigWheels/index.ctp:146
+msgid "Slice"
+msgstr "Fatia"
+
+#: View/ConfigWheels/index.ctp:156
+msgid "---Select the slice---"
+msgstr "---Selecione a Fatia---"
+
+#: View/ConfigWheels/index.ctp:195
+msgid "Active Wheels"
+msgstr "Rodas Ativas"
+
+#: View/ConfigWheels/index.ctp:210 View/Elements/related-packs.ctp:9
+#: View/Elements/related-packs.ctp:18 View/Links/index.ctp:115
+#: View/Links/index.ctp:133 View/Links/view.ctp:46 View/Packs/form.ctp:37
+#: View/Packs/index.ctp:65 View/Packs/index.ctp:82 View/Packs/view.ctp:16
+msgid "Status"
+msgstr "Status"
+
+#: View/ConfigWheels/index.ctp:238
+msgid "Confirm the activation of the wheel?"
+msgstr "Confirma a ativação da Roda?"
+
+#: View/ConfigWheels/index.ctp:242
+msgid "Alert"
+msgstr "Alerta"
+
+#: View/ConfigWheels/index.ctp:243
+msgid "Wheel with less than 3 slices"
+msgstr "Roda com menos de 3 fatias"
+
+#: View/Elements/day-of-the-week.ctp:5
+msgid "Sunday"
+msgstr "Domingo"
+
+#: View/Elements/day-of-the-week.ctp:8
+msgid "Monday"
+msgstr "Segunda-feira"
+
+#: View/Elements/day-of-the-week.ctp:11
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#: View/Elements/day-of-the-week.ctp:14
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+#: View/Elements/day-of-the-week.ctp:17
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+#: View/Elements/day-of-the-week.ctp:20
+msgid "Friday"
+msgstr "Sexta-feira"
+
+#: View/Elements/day-of-the-week.ctp:23
+msgid "Saturday"
+msgstr "Sábado"
+
+#: View/Elements/pagination.ctp:4
+msgid "prev"
+msgstr "anterior"
+
+#: View/Elements/related-actions.ctp:5
+msgid "Related Actions"
+msgstr "Ações Relacionadas"
+
+#: View/Elements/related-actions.ctp:10 View/Elements/related-actions.ctp:19
+#: View/Elements/related-meetings.ctp:11 View/Elements/related-meetings.ctp:19
+#: View/Elements/related-payments.ctp:14 View/Elements/related-payments.ctp:24
+#: View/Elements/related-tasks.ctp:12 View/Elements/related-tasks.ctp:20
+#: View/Meetings/form.ctp:78 View/Meetings/index.ctp:82
+#: View/Meetings/index.ctp:100 View/Meetings/view.ctp:16
+msgid "Date"
+msgstr "Data"
+
+#: View/Elements/related-actions.ctp:11 View/Elements/related-actions.ctp:13
+#: View/Elements/related-actions.ctp:20 View/Elements/related-actions.ctp:22
+#: View/Meetings/index.ctp:83 View/Meetings/index.ctp:101
+msgid "Day"
+msgstr "Dia"
+
+#: View/Elements/related-config-wheel-slice.ctp:5
+#: View/Elements/related-wheel-slices.ctp:5
+msgid "Related Wheel Slices"
+msgstr "Fatias da Roda Relacionadas"
+
+#: View/Elements/related-config-wheel-slice.ctp:11
+#: View/Elements/related-config-wheel-slice.ctp:20
+msgid "Wheel Slice Group Id"
+msgstr "ID"
+
+#: View/Elements/related-enneagram-tests.ctp:2
+msgid "Related Enneagram Tests"
+msgstr "Testes do Eneagrama Relacionados"
+
+#: View/Elements/related-enneagram-tests.ctp:8
+#: View/Elements/related-wheels.ctp:12
+msgid "User Id"
+msgstr "ID do Usuário"
+
+#: View/Elements/related-enneagram-tests.ctp:9
+#: View/Elements/related-wheels.ctp:13
+msgid "Pack Id"
+msgstr "ID do Pacote"
+
+#: View/Elements/related-enneagram-tests.ctp:10 View/EnneagramTests/view.ctp:24
+msgid "Test Date"
+msgstr "Data do Teste"
+
+#: View/Elements/related-enneagram-tests.ctp:11 View/EnneagramTests/view.ctp:29
+msgid "Type One"
+msgstr "Tipo Um"
+
+#: View/Elements/related-enneagram-tests.ctp:12 View/EnneagramTests/view.ctp:34
+msgid "Type Two"
+msgstr "Tipo Dois"
+
+#: View/Elements/related-enneagram-tests.ctp:13 View/EnneagramTests/view.ctp:39
+msgid "Type Three"
+msgstr "Tipo Três"
+
+#: View/Elements/related-enneagram-tests.ctp:14 View/EnneagramTests/view.ctp:44
+msgid "Type Four"
+msgstr "Tipo Quatro"
+
+#: View/Elements/related-enneagram-tests.ctp:15 View/EnneagramTests/view.ctp:49
+msgid "Type Five"
+msgstr "Tipo Cinco"
+
+#: View/Elements/related-enneagram-tests.ctp:16 View/EnneagramTests/view.ctp:54
+msgid "Type Six"
+msgstr "Tipo Seis"
+
+#: View/Elements/related-enneagram-tests.ctp:17 View/EnneagramTests/view.ctp:59
+msgid "Type Seven"
+msgstr "Tipo Sete"
+
+#: View/Elements/related-enneagram-tests.ctp:18 View/EnneagramTests/view.ctp:64
+msgid "Type Eight"
+msgstr "Tipo Oito"
+
+#: View/Elements/related-enneagram-tests.ctp:19 View/EnneagramTests/view.ctp:69
+msgid "Type Nine"
+msgstr "Tipo Nove"
+
+#: View/Elements/related-enneagram-tests.ctp:54
+#: View/EnneagramTests/index.ctp:74 View/EnneagramTests/view.ctp:92
+msgid "New Enneagram Test"
+msgstr "Novo Teste do Eneagrama"
+
+#: View/Elements/related-meetings.ctp:5
+msgid "Related Meetings"
+msgstr "Sessões Relacionadas"
+
+#: View/Elements/related-meetings.ctp:9 View/Elements/related-meetings.ctp:17
+#: View/Elements/related-payments.ctp:9 View/Elements/related-payments.ctp:19
+#: View/Elements/related-tasks.ctp:10 View/Elements/related-tasks.ctp:18
+#: View/Elements/related-wheels.ctp:23 View/EnneagramTests/view.ctp:19
+#: View/Links/form.ctp:39 View/Links/index.ctp:111 View/Links/index.ctp:127
+#: View/Links/view.ctp:16 View/Meetings/form.ctp:39 View/Meetings/index.ctp:80
+#: View/Meetings/index.ctp:96 View/Meetings/view.ctp:31 View/Packs/view.ctp:5
+#: View/Payments/form.ctp:37 View/Payments/index.ctp:80
+#: View/Payments/index.ctp:97 View/Payments/view.ctp:15
+#: View/Surveys/form.ctp:18 View/Surveys/view - Cópia.ctp:24
+#: View/Tasks/form.ctp:38 View/Tasks/index.ctp:81 View/Tasks/index.ctp:97
+#: View/Tasks/view.ctp:21 View/Wheels/form.ctp:37 View/Wheels/index.ctp:84
+#: View/Wheels/index.ctp:99 View/Wheels/view.ctp:26
+msgid "Pack"
+msgstr "Pacote"
+
+#: View/Elements/related-meetings.ctp:10 View/Elements/related-meetings.ctp:18
+#: View/Elements/related-payments.ctp:10 View/Elements/related-payments.ctp:20
+#: View/Meetings/form.ctp:66 View/Meetings/index.ctp:81
+#: View/Meetings/index.ctp:99 View/Payments/form.ctp:64
+#: View/Payments/index.ctp:81 View/Payments/index.ctp:100
+#: View/Tasks/form.ctp:65 View/Tasks/index.ctp:82 View/Tasks/index.ctp:100
+msgid "Number"
+msgstr "Número"
+
+#: View/Elements/related-meetings.ctp:12 View/Elements/related-meetings.ctp:20
+#: View/Elements/related-tasks.ctp:13 View/Elements/related-tasks.ctp:21
+#: View/Meetings/form.ctp:92 View/Meetings/index.ctp:84
+#: View/Meetings/index.ctp:102 View/Tasks/form.ctp:171 View/Tasks/view.ctp:59
+msgid "Time"
+msgstr "Horário"
+
+#: View/Elements/related-meetings.ctp:43 View/Meetings/view.ctp:58
+msgid "New Meeting"
+msgstr "Nova Sessão"
+
+#: View/Elements/related-packs.ctp:5
+msgid "Related Packs"
+msgstr "Pacotes Relacionados"
+
+#: View/Elements/related-packs.ctp:10 View/Elements/related-packs.ctp:19
+#: View/Elements/sidebar-admin.ctp:45 View/Meetings/index.ctp:70
+#: View/Packs/index.ctp:67 View/Packs/index.ctp:84
+msgid "Meetings"
+msgstr "Sessões"
+
+#: View/Elements/related-packs.ctp:11 View/Elements/related-packs.ctp:20
+#: View/Packs/index.ctp:68 View/Packs/index.ctp:85
+msgid "Price"
+msgstr "Valor"
+
+#: View/Elements/related-packs.ctp:12 View/Elements/related-packs.ctp:21
+#: View/Packs/index.ctp:69 View/Packs/index.ctp:86
+msgid "Start"
+msgstr "Início"
+
+#: View/Elements/related-packs.ctp:13 View/Elements/related-packs.ctp:22
+#: View/Packs/index.ctp:70 View/Packs/index.ctp:87
+msgid "End"
+msgstr "Fim"
+
+#: View/Elements/related-packs.ctp:29 View/Packs/index.ctp:98
+#: View/Tasks/index.ctp:131
+msgid "Calendar"
+msgstr "Calendário"
+
+#: View/Elements/related-packs.ctp:47 View/EnneagramTests/add.ctp:31
+#: View/EnneagramTests/edit.ctp:33 View/EnneagramTests/index.ctp:78
+#: View/EnneagramTests/view.ctp:96 View/Packs/view.ctp:78 View/Surveys/view -
+#: Cópia.ctp:53
+msgid "New Pack"
+msgstr "Novo Pacote"
+
+#: View/Elements/related-payments.ctp:5
+msgid "Related Payments"
+msgstr "Pagamentos Relacionados"
+
+#: View/Elements/related-payments.ctp:11 View/Elements/related-payments.ctp:21
+#: View/Payments/index.ctp:82 View/Payments/index.ctp:101
+#: View/Payments/view.ctp:17
+msgid "Due Amount"
+msgstr "Valor Devido"
+
+#: View/Elements/related-payments.ctp:12 View/Elements/related-payments.ctp:22
+#: View/Payments/form.ctp:89 View/Payments/index.ctp:83
+#: View/Payments/index.ctp:102 View/Payments/view.ctp:19
+msgid "Due Date"
+msgstr "Vencimento"
+
+#: View/Elements/related-payments.ctp:13
+msgid "Amount"
+msgstr "Valor"
+
+#: View/Elements/related-payments.ctp:48 View/Payments/view.ctp:41
+msgid "New Payment"
+msgstr "Novo Pagamento"
+
+#: View/Elements/related-tasks.ctp:6
+msgid "Related Tasks"
+msgstr "Tarefas Relacionadas"
+
+#: View/Elements/related-wheel-slices.ctp:20 View/WheelSlices/view.ctp:24
+msgid "Work"
+msgstr "Trabalho"
+
+#: View/Elements/related-wheels.ctp:6
+msgid "Related Wheels"
+msgstr "Rodas Relacionadas"
+
+#: View/Elements/related-wheels.ctp:22 View/Elements/top-navbar-user.ctp:21
+#: View/EnneagramTests/view.ctp:14 View/Links/form.ctp:12
+#: View/Links/index.ctp:109 View/Links/index.ctp:123 View/Links/view.ctp:21
+#: View/Meetings/form.ctp:12 View/Meetings/index.ctp:78
+#: View/Meetings/index.ctp:92 View/Meetings/view.ctp:26 View/Packs/form.ctp:11
+#: View/Packs/index.ctp:63 View/Packs/index.ctp:78 View/Packs/view.ctp:51
+#: View/Payments/form.ctp:11 View/Payments/index.ctp:78
+#: View/Payments/index.ctp:93 View/Payments/view.ctp:13
+#: View/Surveys/form.ctp:12 View/Surveys/view - Cópia.ctp:19
+#: View/Tasks/form.ctp:11 View/Tasks/index.ctp:79 View/Tasks/index.ctp:93
+#: View/Tasks/view.ctp:16 View/Wheels/form.ctp:11 View/Wheels/index.ctp:82
+#: View/Wheels/index.ctp:95 View/Wheels/view.ctp:21
+msgid "User"
+msgstr "Usuário"
+
+#: View/Elements/related-wheels.ctp:42 View/WheelSlices/add.ctp:22
+#: View/WheelSlices/edit.ctp:24 View/WheelSlices/index.ctp:48
+#: View/WheelSlices/view.ctp:59 View/Wheels/view.ctp:53
+msgid "New Wheel"
+msgstr "Nova Roda"
+
+#: View/Elements/sidebar-admin.ctp:38
+msgid "All"
+msgstr "Todos"
+
+#: View/Elements/sidebar-admin.ctp:42 View/Packs/index.ctp:55
+msgid "Packs"
+msgstr "Pacotes"
+
+#: View/Elements/sidebar-admin.ctp:48 View/Elements/sidebar-user.ctp:24
+#: View/Tasks/index.ctp:71
+msgid "Tasks"
+msgstr "Tarefas"
+
+#: View/Elements/sidebar-admin.ctp:51 View/Payments/index.ctp:70
+msgid "Payments"
+msgstr "Pagamentos"
+
+#: View/Elements/sidebar-admin.ctp:54 View/Links/index.ctp:73
+#: View/Links/index.ctp:101
+msgid "Links"
+msgstr ""
+
+#: View/Elements/sidebar-admin.ctp:64
+msgid "Reset"
+msgstr ""
+
+#: View/Elements/task-date.ctp:18
+msgid "Sun"
+msgstr "Dom"
+
+#: View/Elements/task-date.ctp:19
+msgid "Mon"
+msgstr "Seg"
+
+#: View/Elements/task-date.ctp:20
+msgid "Tue"
+msgstr "Ter"
+
+#: View/Elements/task-date.ctp:21
+msgid "Wed"
+msgstr "Qua"
+
+#: View/Elements/task-date.ctp:22
+msgid "Thu"
+msgstr "Qui"
+
+#: View/Elements/task-date.ctp:23
+msgid "Fri"
+msgstr "Sex"
+
+#: View/Elements/task-date.ctp:24
+msgid "Sat"
+msgstr "Sáb"
+
+#: View/Elements/task-date.ctp:30
+msgid "Everyday"
+msgstr "Todos os dias"
+
+#: View/Elements/task-date.ctp:78
+msgid "Once a Month"
+msgstr "Uma vez por mês"
+
+#: View/Elements/task-date.ctp:83
+msgid "Once a Year"
+msgstr "Uma vez por ano"
+
+#: View/Elements/top-navbar-admin.ctp:30
+msgid "Search"
+msgstr "Pesquisar"
+
+#: View/Elements/top-navbar-admin.ctp:47 View/Elements/top-navbar-user.ctp:15
+msgid "Home"
+msgstr "Home"
+
+#: View/Elements/top-navbar-admin.ctp:50 View/EnneagramTests/add.ctp:29
+#: View/EnneagramTests/edit.ctp:31 View/EnneagramTests/index.ctp:76
+#: View/EnneagramTests/view.ctp:94 View/Surveys/view - Cópia.ctp:51
+#: View/Users/view.ctp:170
+msgid "New User"
+msgstr "Novo Usuário"
+
+#: View/Elements/top-navbar-admin.ctp:53
+msgid "Coach"
+msgstr "Coach"
+
+#: View/Elements/top-navbar-admin.ctp:65 View/Elements/top-navbar-user.ctp:29
+msgid "Log Out"
+msgstr "Sair"
+
+#: View/Elements/wheel-of-life-html-css.ctp:24
+msgid "ERROR: User data not created. Delete and recreate Wheel"
+msgstr "ERRO: Dados do Usuário não foram criados. Exclua e recrie a Roda"
+
+#: View/Elements/wheel-of-life-html-css.ctp:25 View/Surveys/display.ctp:4
+#: View/Surveys/results.ctp:4
+msgid "Go Back"
+msgstr "Voltar"
+
+#: View/Elements/wheel-of-life-html-css.ctp:39
+msgid "Work Slice"
+msgstr "Fatia de Trabalho"
+
+#: View/Elements/wheel-of-life-html-css.ctp:44
+msgid "---Select the Work Slice---"
+msgstr "---Selecione a Fatia de Trabalho---"
+
+#: View/Elements/wheel-of-life-html-css.ctp:122
+msgid "Message"
+msgstr "Mensagem"
+
+#: View/Elements/wheel-of-life-html-css.ctp:123
+msgid "Wheel sucessfully updated"
+msgstr "Roda atualizada com sucesso"
+
+#: View/EnneagramTests/add.ctp:4
+msgid "Add Enneagram Test"
+msgstr "Incluir Teste do Eneagrama"
+
+#: View/EnneagramTests/add.ctp:27 View/EnneagramTests/edit.ctp:29
+#: View/EnneagramTests/view.ctp:91
+msgid "List Enneagram Tests"
+msgstr "Listar Teste do Eneagrama"
+
+#: View/EnneagramTests/add.ctp:28 View/EnneagramTests/edit.ctp:30
+#: View/EnneagramTests/index.ctp:75 View/EnneagramTests/view.ctp:93
+#: View/Surveys/view - Cópia.ctp:50 View/Users/view.ctp:169
+msgid "List Users"
+msgstr "Listar Usuárioes"
+
+#: View/EnneagramTests/add.ctp:30 View/EnneagramTests/edit.ctp:32
+#: View/EnneagramTests/index.ctp:77 View/EnneagramTests/view.ctp:95
+#: View/Packs/view.ctp:77 View/Surveys/view - Cópia.ctp:52
+msgid "List Packs"
+msgstr "Listar Pacotes"
+
+#: View/EnneagramTests/edit.ctp:4 View/EnneagramTests/view.ctp:89
+msgid "Edit Enneagram Test"
+msgstr "Alterar Teste do Eneagrama"
+
+#: View/EnneagramTests/index.ctp:2
+msgid "Enneagram Tests"
+msgstr "Testes do Eneagrama"
+
+#: View/EnneagramTests/view.ctp:2
+msgid "Enneagram Test"
+msgstr "Teste do Eneagrama"
+
+#: View/EnneagramTests/view.ctp:90
+msgid "Delete Enneagram Test"
+msgstr "Excluir Teste do Eneagrama"
+
+#: View/Links/form.ctp:5
+msgid "Add Link"
+msgstr "Incluir Link"
+
+#: View/Links/form.ctp:5 View/Links/view.ctp:61
+msgid "Edit Link"
+msgstr "Editar Link"
+
+#: View/Links/form.ctp:18 View/Meetings/form.ctp:18 View/Packs/form.ctp:17
+#: View/Payments/form.ctp:17 View/Surveys/form.ctp:14 View/Tasks/form.ctp:18
+#: View/Wheels/form.ctp:17
+msgid "---Select the user----"
+msgstr "---Selecione o Usuário---"
+
+#: View/Links/form.ctp:45 View/Meetings/form.ctp:45 View/Payments/form.ctp:43
+#: View/Surveys/form.ctp:1 View/Surveys/form.ctp:20 View/Tasks/form.ctp:45
+#: View/Wheels/form.ctp:43
+msgid "---Select the pack----"
+msgstr "---Selecione o Pacote---"
+
+#: View/Links/form.ctp:74 View/Links/view.ctp:31
+msgid "Url"
+msgstr "URL"
+
+#: View/Links/index.ctp:79 View/Links/index.ctp:86 View/Links/index.ctp:113
+#: View/Links/index.ctp:131
+msgid "URL"
+msgstr "URL"
+
+#: View/Links/view.ctp:5
+msgid "Link"
+msgstr ""
+
+#: View/Links/view.ctp:62
+msgid "Delete Link"
+msgstr "Excluir Link"
+
+#: View/Links/view.ctp:63
+msgid "List Links"
+msgstr "Listar Links"
+
+#: View/Links/view.ctp:64
+msgid "New Link"
+msgstr "Novo Link"
+
+#: View/Meetings/form.ctp:5
+msgid "Add Meeting"
+msgstr "Nova Sessão"
+
+#: View/Meetings/form.ctp:5 View/Meetings/view.ctp:55
+msgid "Edit Meeting"
+msgstr "Alterar Sessão"
+
+#: View/Meetings/form.ctp:69 View/Payments/form.ctp:70 View/Tasks/form.ctp:72
+msgid "Insert the Number"
+msgstr "Digite o Número"
+
+#: View/Meetings/form.ctp:84 View/Tasks/form.ctp:163
+msgid "Insert the date"
+msgstr "Digite a data"
+
+#: View/Meetings/form.ctp:98 View/Tasks/form.ctp:178
+msgid "Insert the time"
+msgstr "Digite o Horário"
+
+#: View/Meetings/form.ctp:106 View/Meetings/view.ctp:21
+msgid "Summary"
+msgstr "Resumo"
+
+#: View/Meetings/form.ctp:109
+msgid "Insert the summary"
+msgstr "Digite o resumo"
+
+#: View/Meetings/form.ctp:115
+msgid "Positive Points"
+msgstr "Pontos Positivos"
+
+#: View/Meetings/form.ctp:117
+msgid "Insert the positive points (of my work as a coach)"
+msgstr "Digite os pontos positivos (do meu trabalho como coach)"
+
+#: View/Meetings/form.ctp:123
+msgid "Points To Improve"
+msgstr "Pontos a Melhorar"
+
+#: View/Meetings/form.ctp:125
+msgid "Insert the points to improve (of my work as a coach)"
+msgstr "Digite os pontos a melhorar (do meu trabalho como coach)"
+
+#: View/Meetings/form.ctp:131 View/Tasks/form.ctp:288
+msgid "Notes"
+msgstr "Notas"
+
+#: View/Meetings/form.ctp:133 View/Tasks/form.ctp:295
+msgid "Insert the notes"
+msgstr "Digite as notas"
+
+#: View/Meetings/view.ctp:5
+msgid "Meeting"
+msgstr "Sessão"
+
+#: View/Meetings/view.ctp:56
+msgid "Delete Meeting"
+msgstr "Excluir Sessão"
+
+#: View/Meetings/view.ctp:57
+msgid "List Meetings"
+msgstr "Listar Sessões"
+
+#: View/Packs/form.ctp:5
+msgid "Add Pack"
+msgstr "Novo Pacote"
+
+#: View/Packs/form.ctp:5 View/Packs/view.ctp:75
+msgid "Edit Pack"
+msgstr "Alterar Pacote"
+
+#: View/Packs/form.ctp:40
+msgid "Active"
+msgstr "Ativo"
+
+#: View/Packs/form.ctp:40
+msgid "Finished"
+msgstr "Concluído"
+
+#: View/Packs/form.ctp:40
+msgid "Suspended"
+msgstr "Suspenso "
+
+#: View/Packs/form.ctp:45
+msgid "---Select the status---"
+msgstr "---Selecione o Status---"
+
+#: View/Packs/form.ctp:63 View/Packs/view.ctp:26 View/Tasks/form.ctp:96
+#: View/Tasks/view.ctp:31
+msgid "Description"
+msgstr "Descrição"
+
+#: View/Packs/form.ctp:65 View/Tasks/form.ctp:104
+msgid "Insert the description"
+msgstr "Digite a descrição"
+
+#: View/Packs/form.ctp:71
+msgid "Number of meetings"
+msgstr "Número de sessões"
+
+#: View/Packs/form.ctp:74
+msgid "Insert the number of meetings"
+msgstr "Digite o número de sessões"
+
+#: View/Packs/form.ctp:80
+msgid "Meeting Price"
+msgstr "Valor da Sessão"
+
+#: View/Packs/form.ctp:83
+msgid "Insert the price of the meeting"
+msgstr "Digite o valor da sessão"
+
+#: View/Packs/form.ctp:89 View/Packs/view.ctp:41 View/Tasks/form.ctp:156
+#: View/Tasks/index.ctp:85 View/Tasks/view.ctp:54
+msgid "Start Date"
+msgstr "Data de Início"
+
+#: View/Packs/form.ctp:95
+msgid "Insert the start date"
+msgstr "Digite a data de início"
+
+#: View/Packs/form.ctp:103 View/Packs/view.ctp:46 View/Tasks/form.ctp:190
+#: View/Tasks/index.ctp:120 View/Tasks/view.ctp:65
+msgid "End Date"
+msgstr "Término"
+
+#: View/Packs/form.ctp:109 View/Tasks/form.ctp:196
+msgid "Insert the end date"
+msgstr "Digite a data do término"
+
+#: View/Packs/view.ctp:31
+msgid "Number Of Sessions"
+msgstr "Número de Sessões"
+
+#: View/Packs/view.ctp:36
+msgid "Session Price"
+msgstr "Valor da Sessão"
+
+#: View/Packs/view.ctp:76
+msgid "Delete Pack"
+msgstr "Excluir Pacote"
+
+#: View/Payments/form.ctp:5
+msgid "Add Payment"
+msgstr "Novo Pagamento"
+
+#: View/Payments/form.ctp:5 View/Payments/view.ctp:38
+msgid "Edit Payment"
+msgstr "Alterar Pagamentos"
+
+#: View/Payments/form.ctp:80
+msgid "Due Amont"
+msgstr "Valor Devido"
+
+#: View/Payments/form.ctp:83 View/Payments/form.ctp:105
+msgid "Insert the due amont"
+msgstr "Digite o Valor Devido"
+
+#: View/Payments/form.ctp:95 View/Payments/form.ctp:116
+msgid "Insert the due date"
+msgstr "Digite o Vencimento"
+
+#: View/Payments/form.ctp:103
+msgid "Payment Amont"
+msgstr "Valor Pago"
+
+#: View/Payments/form.ctp:111 View/Payments/index.ctp:85
+#: View/Payments/index.ctp:104 View/Payments/view.ctp:23
+msgid "Payment Date"
+msgstr "Pagamento"
+
+#: View/Payments/index.ctp:84 View/Payments/index.ctp:103
+#: View/Payments/view.ctp:21
+msgid "Payment Amount"
+msgstr "Valor Pago"
+
+#: View/Payments/view.ctp:5
+msgid "Payment"
+msgstr "Pagamento"
+
+#: View/Payments/view.ctp:39
+msgid "Delete Payment"
+msgstr "Exluir Pagamento"
+
+#: View/Payments/view.ctp:40
+msgid "List Payments"
+msgstr "Listar Pagamentos"
+
+#: View/Surveys/display.ctp:8 View/Surveys/results.ctp:8
+msgid "Config Survey ID not passed"
+msgstr "ID do Questionário de Configuração não foi passada"
+
+#: View/Surveys/display.ctp:15 View/Surveys/results.ctp:15
+msgid "Survey ID not passed"
+msgstr "ID do Questionário inválida"
+
+#: View/Surveys/display.ctp:22
+msgid "Survey already answered"
+msgstr "Questionário já foi respondido"
+
+#: View/Surveys/display.ctp:30 View/Surveys/results.ctp:30
+msgid "Survey does not exist"
+msgstr "Questionário não existe"
+
+#: View/Surveys/display.ctp:38 View/Surveys/results.ctp:37
+msgid "Survey is not active"
+msgstr "Questionário não está ativo"
+
+#: View/Surveys/display.ctp:68 View/Surveys/display.ctp:85
+#: View/Surveys/display.ctp:100 View/Surveys/display.ctp:112
+msgid "Mandatory Field"
+msgstr "Campo Obrigatório"
+
+#: View/Surveys/display.ctp:81 View/Surveys/display.ctp:96
+msgid "No Answer"
+msgstr "Sem Resposta"
+
+#: View/Surveys/display.ctp:91
+msgid "Select an option"
+msgstr "Selecione uma opção"
+
+#: View/Surveys/form.ctp:26
+msgid "---Select the survey----"
+msgstr "---Selecione o questionário---"
+
+#: View/Surveys/index.ctp:99 View/Surveys/index.ctp:159
+msgid "Results"
+msgstr "Resultados"
+
+#: View/Surveys/results.ctp:22
+msgid "Survey not yet answered"
+msgstr "Questionário ainda não foi respondido"
+
+#: View/Surveys/results.ctp:117 View/Surveys/results.ctp:122
+msgid "Not Answered"
+msgstr "Não Respondido"
+
+#: View/Surveys/results.ctp:129
+msgid "Sub-Total"
+msgstr ""
+
+#: View/Surveys/results.ctp:129
+msgid "points"
+msgstr "pontos"
+
+#: View/Surveys/results.ctp:131
+msgid "Total"
+msgstr ""
+
+#: View/Surveys/view - Cópia.ctp:34
+msgid "Saved"
+msgstr "Gravado"
+
+#: View/Surveys/view - Cópia.ctp:45
+msgid "Delete Survey"
+msgstr "Excluir Questionário"
+
+#: View/Surveys/view - Cópia.ctp:46
+msgid "List Surveys"
+msgstr "Listar Questionários"
+
+#: View/Surveys/view - Cópia.ctp:54
+msgid "List Answers"
+msgstr "Listar Respostas"
+
+#: View/Surveys/view - Cópia.ctp:63
+msgid "Related Answers"
+msgstr "Respostas Relacionadas"
+
+#: View/Surveys/view - Cópia.ctp:69
+msgid "Config Survey Id"
+msgstr "ID Questionário de Configuração"
+
+#: View/Surveys/view - Cópia.ctp:70
+msgid "Config Question Group Id"
+msgstr "ID Grupo de Perguntas de Configuração"
+
+#: View/Surveys/view - Cópia.ctp:71
+msgid "Config Question Id"
+msgstr "ID Pergunta de Configuração"
+
+#: View/Surveys/view - Cópia.ctp:72
+msgid "Config Answer Id"
+msgstr "ID Resposta de Configuração"
+
+#: View/Tasks/form.ctp:5
+msgid "Add Task"
+msgstr "Nova Tarefa"
+
+#: View/Tasks/form.ctp:5 View/Tasks/view.ctp:119
+msgid "Edit Task"
+msgstr "Alterar Tarefa"
+
+#: View/Tasks/form.ctp:111
+msgid "Repeat Type"
+msgstr "Tipo de Repetição"
+
+#: View/Tasks/form.ctp:115
+msgid "None"
+msgstr "Nenhuma"
+
+#: View/Tasks/form.ctp:116
+msgid "Daily"
+msgstr "Diária"
+
+#: View/Tasks/form.ctp:117
+msgid "Every Weekday (Monday to Friday"
+msgstr "Toda a semana (Segunda a Sexta)"
+
+#: View/Tasks/form.ctp:118
+msgid "Every Monday, Wednesday and Friday"
+msgstr "Segundas, Quartas e Sextas"
+
+#: View/Tasks/form.ctp:119
+msgid "Every Tuesday and Thursday"
+msgstr "Terças e Quintas"
+
+#: View/Tasks/form.ctp:120
+msgid "Weekly"
+msgstr "Semanalmente"
+
+#: View/Tasks/form.ctp:121
+msgid "Monthly"
+msgstr "Uma vez por mês"
+
+#: View/Tasks/form.ctp:122
+msgid "Anual"
+msgstr "Anual"
+
+#: View/Tasks/form.ctp:128
+msgid "---Select the repeat type---"
+msgstr "---Selecione o Tipo de Repetição---"
+
+#: View/Tasks/form.ctp:204 View/Tasks/view.ctp:70
+msgid "With Whom"
+msgstr "Com Quem"
+
+#: View/Tasks/form.ctp:211
+msgid "Insert the participants"
+msgstr "Digite os participantes"
+
+#: View/Tasks/form.ctp:218 View/Tasks/view.ctp:75
+msgid "Obstacles"
+msgstr "Obstáculos"
+
+#: View/Tasks/form.ctp:225
+msgid "Insert the possible obstacles"
+msgstr "Digite os possíveis obstáculos"
+
+#: View/Tasks/form.ctp:232 View/Tasks/view.ctp:80
+msgid "Benefits"
+msgstr "Benefícios"
+
+#: View/Tasks/form.ctp:239
+msgid "Insert the benefits"
+msgstr "Digite os benefícios"
+
+#: View/Tasks/form.ctp:246 View/Tasks/view.ctp:85
+msgid "Reminders"
+msgstr "Lembretes"
+
+#: View/Tasks/form.ctp:253
+msgid "Insert the reminders"
+msgstr "Digite os lembretes definidos para esta tarefa"
+
+#: View/Tasks/form.ctp:260 View/Tasks/view.ctp:90
+msgid "Punishments"
+msgstr "Punições"
+
+#: View/Tasks/form.ctp:267
+msgid "Insert the punishments"
+msgstr "Digite as punições por não concluir a tarefa"
+
+#: View/Tasks/form.ctp:274 View/Tasks/view.ctp:95
+msgid "Celebrations"
+msgstr "Celebrações"
+
+#: View/Tasks/form.ctp:281
+msgid "Insert the celebrations"
+msgstr "Digite as celebrações"
+
+#: View/Tasks/index.ctp:84 View/Tasks/index.ctp:102 View/Tasks/view.ctp:36
+msgid "When"
+msgstr "Quando"
+
+#: View/Tasks/view.ctp:120
+msgid "Delete Task"
+msgstr "Excluir Tarefa"
+
+#: View/Users/form.ctp:5
+msgid "Add User"
+msgstr "Novo Usuário"
+
+#: View/Users/form.ctp:5 View/Users/view.ctp:167
+msgid "Edit User"
+msgstr "Alterar Usuário"
+
+#: View/Users/form.ctp:11 View/Users/view.ctp:38
+msgid "Role"
+msgstr "Papel"
+
+#: View/Users/form.ctp:19
+msgid "---Select the role---"
+msgstr "---Selecione o Papel---"
+
+#: View/Users/form.ctp:40 View/Users/view.ctp:43
+msgid "Name"
+msgstr "Nome"
+
+#: View/Users/form.ctp:43
+msgid "Insert the name"
+msgstr "Digite o nome"
+
+#: View/Users/form.ctp:49 View/Users/view.ctp:48
+msgid "Sex"
+msgstr "Sexo"
+
+#: View/Users/form.ctp:51
+msgid "Masculine"
+msgstr "Masculino"
+
+#: View/Users/form.ctp:51
+msgid "Feminine"
+msgstr "Feminino"
+
+#: View/Users/form.ctp:55
+msgid "---Select the sex---"
+msgstr "---Selecione o Sexo---"
+
+#: View/Users/form.ctp:64 View/Users/view.ctp:53
+msgid "Birthday"
+msgstr "Data de Nascimento"
+
+#: View/Users/form.ctp:69
+msgid "Insert the birthday"
+msgstr "Digite a Data de Nascimento"
+
+#: View/Users/form.ctp:77 View/Users/view.ctp:58
+msgid "Occupation"
+msgstr "Ocupação"
+
+#: View/Users/form.ctp:79
+msgid "Insert the occupation"
+msgstr "Digite a Ocupação"
+
+#: View/Users/form.ctp:85 View/Users/view.ctp:63
+msgid "Email"
+msgstr "Email"
+
+#: View/Users/form.ctp:88
+msgid "Insert the email"
+msgstr "Digite o Email"
+
+#: View/Users/form.ctp:94 View/Users/login.ctp:6 View/Users/view.ctp:68
+msgid "Username"
+msgstr "Nome de Usuário"
+
+#: View/Users/form.ctp:97
+msgid "Insert the username"
+msgstr "Digite o Nome de Usuário"
+
+#: View/Users/form.ctp:103 View/Users/login.ctp:15
+msgid "Password"
+msgstr "Senha"
+
+#: View/Users/form.ctp:110
+msgid "Insert the password"
+msgstr "Digite a Senha"
+
+#: View/Users/form.ctp:117
+msgid "Password Confirm"
+msgstr "Confirmação da Senha"
+
+#: View/Users/form.ctp:125
+msgid "Insert the password confirmation"
+msgstr "Digite a Confirmação da Senha"
+
+#: View/Users/form.ctp:132 View/Users/view.ctp:73
+msgid "Address"
+msgstr "Endereço"
+
+#: View/Users/form.ctp:134
+msgid "Insert the address"
+msgstr "Digite o Endereço"
+
+#: View/Users/form.ctp:140 View/Users/view.ctp:78
+msgid "City"
+msgstr "Cidade"
+
+#: View/Users/form.ctp:142
+msgid "Insert the city"
+msgstr "Digite a Cidade"
+
+#: View/Users/form.ctp:148 View/Users/view.ctp:83
+msgid "State"
+msgstr "Localidade"
+
+#: View/Users/form.ctp:150
+msgid "Insert the state"
+msgstr "Digite a Localidade"
+
+#: View/Users/form.ctp:479 View/Users/view.ctp:103
+msgid "Zip"
+msgstr "Código Postal"
+
+#: View/Users/form.ctp:481
+msgid "Insert the zip"
+msgstr "Digite o Código Postal"
+
+#: View/Users/form.ctp:487 View/Users/view.ctp:108
+msgid "Phone"
+msgstr "Telefone"
+
+#: View/Users/form.ctp:489
+msgid "Insert the phone"
+msgstr "Digite o número de Telefone"
+
+#: View/Users/form.ctp:495 View/Users/view.ctp:113
+msgid "Mobile"
+msgstr "Telemóvel"
+
+#: View/Users/form.ctp:497
+msgid "Insert the mobile"
+msgstr "Digite o número de telemóvel"
+
+#: View/Users/form.ctp:503 View/Users/view.ctp:118
+msgid "Skype"
+msgstr ""
+
+#: View/Users/form.ctp:505
+msgid "Insert the skype"
+msgstr "Digite o Skype"
+
+#: View/Users/form.ctp:511 View/Users/view.ctp:123
+msgid "Facebook"
+msgstr ""
+
+#: View/Users/form.ctp:513
+msgid "Insert the facebook"
+msgstr "Digite o endereço do Facebook"
+
+#: View/Users/form.ctp:519 View/Users/view.ctp:128
+msgid "Linkedin"
+msgstr ""
+
+#: View/Users/form.ctp:521
+msgid "Insert the linkedin"
+msgstr "Digite o endereço do Linkedin"
+
+#: View/Users/form.ctp:527 View/Users/view.ctp:133
+msgid "Twitter"
+msgstr ""
+
+#: View/Users/form.ctp:529
+msgid "Insert the twitter"
+msgstr "Digite o endereço do Twitter"
+
+#: View/Users/form.ctp:535 View/Users/view.ctp:138
+msgid "Site"
+msgstr ""
+
+#: View/Users/form.ctp:537
+msgid "Insert the site"
+msgstr "Digite o endereço do Site"
+
+#: View/Users/form.ctp:543 View/Users/view.ctp:143
+msgid "Photo"
+msgstr "Foto"
+
+#: View/Users/index.ctp:49
+msgid "COACHEE SINCE"
+msgstr "COACHEE DESDE"
+
+#: View/Users/index.ctp:51
+msgid "USING COACHING MACHINE SINCE"
+msgstr "USANDO COACHING MACHINE DESDE"
+
+#: View/Users/login.ctp:21
+msgid "Sign in"
+msgstr "Entrar"
+
+#: View/Users/login.ctp:25
+msgid "Forget your password?"
+msgstr "Esqueceu a Senha?"
+
+#: View/Users/view.ctp:168
+msgid "Delete User"
+msgstr "Excluir Usuário"
+
+#: View/WheelSlices/add.ctp:20 View/WheelSlices/edit.ctp:22
+#: View/WheelSlices/view.ctp:56
+msgid "List Wheel Slices"
+msgstr "Listar Fatias da Roda"
+
+#: View/WheelSlices/add.ctp:21 View/WheelSlices/edit.ctp:23
+#: View/WheelSlices/index.ctp:47 View/WheelSlices/view.ctp:58
+#: View/Wheels/view.ctp:52
+msgid "List Wheels"
+msgstr "Listar Rodas"
+
+#: View/WheelSlices/index.ctp:2
+msgid "Wheel Slices"
+msgstr "Fatias da Roda"
+
+#: View/WheelSlices/index.ctp:46 View/WheelSlices/view.ctp:57
+msgid "New Wheel Slice"
+msgstr "Nova Fatia da Roda"
+
+#: View/WheelSlices/view.ctp:2
+msgid "Wheel Slice"
+msgstr "Fatia da Roda"
+
+#: View/WheelSlices/view.ctp:55
+msgid "Delete Wheel Slice"
+msgstr "Excluir Fatia da Roda"
+
+#: View/Wheels/form.ctp:73
+msgid "Wheel Type"
+msgstr "Tipo de Roda"
+
+#: View/Wheels/form.ctp:79
+msgid "---Select the Wheel Type----"
+msgstr "---Selecione o Tipo de  Roda---"
+
+#: View/Wheels/view.ctp:51
+msgid "Delete Wheel"
+msgstr "Excluir Roda"
+
+#~ msgid "Invalid Task List"
+#~ msgstr "Lista de Tarefas  inválida"
+
+#~ msgid "Rows"
+#~ msgstr "Linhas"
+
+#~ msgid "Survey Answered"
+#~ msgstr "Questionário Respondido"
+
+#~ msgid "List Sessions"
+#~ msgstr "Listar Sessões"
+
+#~ msgid "New Session"
+#~ msgstr "Nova Sessão"
+
+#~ msgid "Go"
+#~ msgstr "Ir"
+
+#~ msgid "Wheel Slice Groups"
+#~ msgstr "Grupos de Fatias"
+
+#~ msgid "Task Id"
+#~ msgstr "ID da Tarefa"
+
+#~ msgid "The action has been saved."
+#~ msgstr "A acção foi gravada."
+
+#~ msgid "The action could not be saved. Please, try again."
+#~ msgstr "A acção não pode ser gravada. Por favor, tente novamente."
+
+#~ msgid "The action has been deleted."
+#~ msgstr "A acção foi excluída."
+
+#~ msgid "The action could not be deleted. Please, try again."
+#~ msgstr "A acção não pode ser excluída. Por favor, tente novamente."
+
+#~ msgid "Action not authorized for this role"
+#~ msgstr "Acção não autorizada para este perfil"
+
+#~ msgid "Day Of The Month"
+#~ msgstr "Dia do Mês"
+
+#~ msgid "Insert the day of the month"
+#~ msgstr "Insira o Dia do Mês"
+
+#~ msgid "Wheel Id"
+#~ msgstr "ID da Roda"
+
+#~ msgid "Config Wheel Slice Group Id"
+#~ msgstr "ID do Grupo de Fatias da Roda"
+
+#~ msgid "Config Wheel Id"
+#~ msgstr "Id da Roda"
+
+#~ msgid "Number Of Meetings"
+#~ msgstr "Número de Sessões"
+
+#~ msgid "Invalid config wheel"
+#~ msgstr "Configuração - Roda inválida."
+
+#~ msgid "The config wheel has been saved."
+#~ msgstr "Configuração - A Roda  foi gravada."
+
+#~ msgid "The config wheel could not be saved. Please, try again."
+#~ msgstr ""
+#~ "Configuração - A Roda não pode ser gravada. Por favor, tente novamente."
+
+#~ msgid "The config wheel has been deleted."
+#~ msgstr "Configuração - A Roda foi excluída."
+
+#~ msgid "The config wheel could not be deleted. Please, try again."
+#~ msgstr ""
+#~ "Configuração - A Roda não pode ser excluída. Por favor, tente novamente."
+
+#~ msgid "Invalid config wheel slice group"
+#~ msgstr "Configuração - Grupo de Fatias da Roda inválido."
+
+#~ msgid "The config wheel slice group has been saved."
+#~ msgstr "Configuração - O Grupo de Fatias da Roda foi gravado."
+
+#~ msgid "The config wheel slice group could not be saved. Please, try again."
+#~ msgstr ""
+#~ "Configuração - O Grupo de Fatias da Roda não pode ser gravado. Por favor, "
+#~ "tente novamente."
+
+#~ msgid "The config wheel slice group has been deleted."
+#~ msgstr "Configuração - O Grupo de Fatias da Roda foi excluído."
+
+#~ msgid ""
+#~ "The config wheel slice group could not be deleted. Please, try again."
+#~ msgstr ""
+#~ "Configuração - O Grupo de Fatias da Roda não pode ser excluído. Por "
+#~ "favor, tente novamente."
+
+#~ msgid "Invalid config wheel slice"
+#~ msgstr "Configuração - Fatia da Roda inválida."
+
+#~ msgid "The config wheel slice has been saved."
+#~ msgstr "Configuração - A Fatia da Roda foi gravada."
+
+#~ msgid "The config wheel slice could not be saved. Please, try again."
+#~ msgstr ""
+#~ "Configuração - A Fatia da Roda não pode ser gravada. Por favor, tente "
+#~ "novamente."
+
+#~ msgid "The config wheel slice has been deleted."
+#~ msgstr "Configuração - A Fatia da Roda foi excluída."
+
+#~ msgid "The config wheel slice could not be deleted. Please, try again."
+#~ msgstr ""
+#~ "Configuração - A Fatia da Roda não pode ser excluída. Por favor, tente "
+#~ "novamente."
+
+#~ msgid "Add Config Wheel"
+#~ msgstr "Configuração - Incluir Roda"
+
+#~ msgid "Add Config Wheel Slice Group"
+#~ msgstr "Incluir Grupo de Fatias da Roda"
+
+#~ msgid "Add Config Wheel Slice"
+#~ msgstr "Incluir Fatia da Roda"
