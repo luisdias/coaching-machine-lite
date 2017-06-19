@@ -87,7 +87,7 @@
 			</thead>
 			<tbody>
 					<?php foreach ($meetings as $meeting): ?>
-					<tr>
+					<tr <?php echo ( $meeting['Meeting']['created'] == $meeting['Meeting']['modified'] ? 'class="green"': '' ); ?> >
 						<?php if ( !isset($coachee_id) ) { ?>					
 						<td data-title="<?php echo __('User',false); ?>">
 							<?php echo $this->Html->link($meeting['User']['name'], array('controller' => 'users', 'action' => 'view', $meeting['User']['id'])); ?>
