@@ -7,7 +7,7 @@
           				<span class="icon-bar"></span>
           				<span class="icon-bar"></span>
                       </button>
-                      <a href="#" class="navbar-brand logo">cm</a>
+											<?php echo $this->Html->link('cm', array('controller' => 'pages','action' => 'index'),array('escape' => false, 'class'=>'navbar-brand logo')); ?>
                   	</div>
                   	<nav class="collapse navbar-collapse" role="navigation">
 						<?php
@@ -22,7 +22,7 @@
 							)
 						);						
 						?>
-                        <div class="input-group input-group-sm" style="max-width:360px;">
+            <div class="input-group input-group-sm" style="max-width:360px;">
 							<?php echo $this->Form->input('name', array(
 								'label' => false,
 								'div' => false, 
@@ -44,13 +44,16 @@
 						<?php echo $this->Form->end(); ?>
                     <ul class="nav navbar-nav">
                       <li>
-						<?php echo $this->Html->link('<i class="glyphicon glyphicon-home"></i> '.__('Home'), array('controller' => 'users','action' => 'index'),array('escape' => false)); ?>
+						<?php echo $this->Html->link('<i class="glyphicon glyphicon-home"></i> '.__('Home'), array('controller' => 'pages','action' => 'index'),array('escape' => false)); ?>
+											</li>
+											<li>
+						<?php echo $this->Html->link('<i class="glyphicon glyphicon-user"></i> '.__('Users'), array('controller' => 'users','action' => 'index'),array('escape' => false)); ?>
                       </li>
                       <li>
 						<?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New User'), array('controller' => 'users','action' => 'add'),array('escape' => false)); ?>
                       </li>
                       <li>
-						<?php echo $this->Html->link('<i class="glyphicon glyphicon-user"></i> '.__('Coach') . ' :: ' . $this->Session->read('Auth.User.name'), array('controller' => 'users','action' => 'edit',$this->Session->read('Auth.User.id')),array('escape' => false)); ?>
+						<?php echo $this->Html->link('<i class="glyphicon glyphicon-lock"></i> '.__('Coach') . ' :: ' . $this->Session->read('Auth.User.name'), array('controller' => 'users','action' => 'edit',$this->Session->read('Auth.User.id')),array('escape' => false)); ?>
                       </li>					  
                     </ul>
                     <ul class="nav navbar-nav navbar-right tcm-navbar">
