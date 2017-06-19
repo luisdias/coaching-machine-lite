@@ -6,4 +6,9 @@ $( document ).ready(function() {
 	} else {
 		$('#MeetingUserId').focus();
 	}
+	se = $('#MeetingSelfEvaluation').val();
+	if (se != 0) {
+		$('#self-evaluation').attr('data-rating',se);
+	}
+	$('#self-evaluation').rating();
 });
