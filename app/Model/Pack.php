@@ -153,6 +153,16 @@ class Pack extends AppModel {
 					//'on' => 'create', // Limit validation to 'create' or 'update' operations
 				),				
 			),
+			'session_periodicity' => array(
+				'notBlank' => array(
+					'rule' => array('notBlank'),
+					'message' => __('Session Periodicity is required',true),
+					//'allowEmpty' => false,
+					//'required' => false,
+					//'last' => false, // Stop validation after this rule
+					//'on' => 'create', // Limit validation to 'create' or 'update' operations
+				),
+			),			
 		);
 	}
 
@@ -264,10 +274,40 @@ class Pack extends AppModel {
 		App::uses('CakeSession','Model/Datasource');
 		$coachee_id = CakeSession::read('Coachee.User.id');
 		$active_pack_id = CakeSession::read('Coachee.Pack.id');
+
+		$user_id = $this->data['Pack']['user_id'];;
+		$pack_id = $this->data['Pack']['id'];;
+		$start_date = $this->data['Pack']['start_date'];
+		$end_date = $this->data['Pack']['end_date'];
+		$meeting_periodicity = $this->data['Pack']['meeting_periodicity'];
+		$meeting_time = $this->data['Pack']['meeting_time'];
+		$number_of_meetings = $this->data['Pack']['number_of_meetings'];
+		$meeting_price = $this->data['Pack']['meeting_price'];		
+
 		if ( ($this->data[$this->alias]['user_id'] == $coachee_id) && is_null($active_pack_id) ) {
 			if ($this->data[$this->alias]['status'] == 'Active') {			
-				CakeSession::write('Coachee.Pack.id',$this->getInsertID());
+				CakeSession::write('Coachee.Pack.id',$pack_id);
 			}			
+		}
+		if ($created) {
+			$this->createMeetings(
+				$pack_id, 
+				$user_id, 				
+				$start_date, 
+				$end_date, 
+				$meeting_periodicity, 
+				$meeting_time,
+				$number_of_meetings
+			);
+
+			$this->createPayments(
+				$pack_id, 
+				$user_id, 				
+				$start_date, 
+				$number_of_meetings,
+				$meeting_price
+			);
+			
 		}
 	}
 	
@@ -304,6 +344,49 @@ class Pack extends AppModel {
 		} else {
 			return true;
 		}
+	}
+
+	public function createMeetings($pack_id, $user_id, $start_date, $end_date, $meeting_periodicity, $meeting_time, $number_of_meetings) {
+		$d = $start_date;
+		switch ($meeting_periodicity) {
+			case 7:
+				$per = "+7 day";
+				break;
+			case 15:
+				$per = "+15 day";
+				break;
+			case 30:
+				$per = "+30 day";
+				break;
+			default:
+				$per = "+7 day";
+				break;
+		}
+		for ($i=1; $i <= $number_of_meetings; $i++) { 
+			$this->Meeting->create();
+			$data = array(
+				'number' => $i,
+				'date' => $d,
+				'time' => $meeting_time,
+				'summary' => __('Write your meeting summary here',true),
+				'user_id' => $user_id,
+				'pack_id' => $pack_id
+			);
+			$this->Meeting->save($data);			
+			$d = date('Y-m-d',strtotime($per, strtotime($d)));
+		}
+	}
+
+	public function createPayments($pack_id, $user_id, $start_date, $number_of_meetings, $meeting_price) {
+		$this->Payment->create();
+		$data = array(
+			'number' => 1,
+			'due_date' => $start_date,
+			'due_amount' => $number_of_meetings * $meeting_price,
+			'user_id' => $user_id,
+			'pack_id' => $pack_id
+		);
+		$this->Payment->save($data);		
 	}
 
 }
