@@ -37,7 +37,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		
 		echo $this->Html->css('bootstrap.min');
 		echo $this->Html->css('table-responsive');		
-		echo $this->Html->css('styles');
+		echo $this->Html->css('styles.css?' . rand()); ?>
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -105,6 +105,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <?php echo $this->Html->script('pickadate/picker.time.js'); ?>
 <?php echo $this->Html->script('pickadate/legacy.js'); ?>
 <?php echo $this->Html->script('pickadate/translations/pt_BR.js'); ?>
+
+<?php echo $this->Html->script('star-rating/bootstrap-star-rating.js'); ?>
 
 <?php echo $this->fetch('scriptBottom'); ?>
 </body>
