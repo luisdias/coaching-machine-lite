@@ -111,7 +111,38 @@
 						);
 						echo $this->Form->input('end_date',$attributes); 
 						?>
-					</div>			
+					</div>
+
+					<div class="form-group">
+						<label class="control-label" for="PackMeetingPeriodicity"><?php echo __('Meeting Periodicity'); ?></label>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<?php
+						$per = array(7 => __('Weekly',false), 15 => __('Every two weeks',false), 30 => __('Monthly',false));
+						$attributes = array(
+							'type'=>'select', 
+							'label' => false, 
+							'class' => 'form-control',
+							'empty'=>__('---Select the periodicity---'),
+							'options' => $per,
+							'required' => true
+						);
+						echo $this->Form->input('meeting_periodicity',$attributes); 
+						?>
+					</div>		
+
+					<div class="form-group task-time">
+						<label class="control-label" for="PackMeetingTime"><?php echo __('Meeting Time'); ?></label>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<?php
+						$attributes = array(
+							'label' => false, 
+							'class' => 'form-control timepicker',
+							'placeholder' => __('Insert the time',false),
+							'type' => 'text'
+						);
+						echo $this->Form->input('meeting_time',$attributes); 
+						?>
+					</div>										
 					
 					<div class="form-group">
 						<div class="col-sm-12 col-md-6">					
