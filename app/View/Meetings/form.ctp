@@ -134,7 +134,17 @@
 					echo $this->Form->input('notes',$attributes); 
 					?>
 				</div>				
-				
+
+				<div class="form-group">
+					<label class="control-label" for="MeetingSelfEvaluation"><?php echo __('Self Evaluation'); ?></label>
+					<div id="self-evaluation" data-rating="0">
+					<?php
+					$attributes = array('type'=>'hidden', 'label' => false, 'class' => 'form-control');
+					echo $this->Form->input('self_evaluation',$attributes); 
+					?>
+					</div>
+				</div>
+
 				<div class="form-group">
 				    <div class="col-sm-12 col-md-6">				
                         <?php
