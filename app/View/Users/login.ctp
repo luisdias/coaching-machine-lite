@@ -21,9 +21,18 @@
 	echo $this->Form->button(__('Sign in'), array('type' => 'submit','class' => 'btn btn-primary btn-block')); 
 	echo $this->Form->end();
 	?>
-	<!--
 	<hr>
-	<span class="pull-right"><a href="#"><?php /* echo __('Forget your password?'); */ ?></a></span>
+	<span class="pull-right">
+	<?php echo $this->Html->link(__('Forget your password?'), array('controller' => 'Users', 'action' => 'forgot')); ?>
+	</span>
 	<br>
-	-->
 </div>
+
+<?php
+$code="
+$( document ).ready(function() {	
+	$('#authMessage').removeClass('message').addClass('alert alert-danger');
+});
+";
+$this->Html->scriptBlock($code, array('block' => 'scriptBottom'));
+?>
