@@ -293,6 +293,7 @@ class User extends AppModel {
     }
 	
     public function beforeSave($options = array()) {
+		parent::beforeSave($options = array());
         if (!empty($this->data[$this->alias]['password'])) {
             $passwordHasher = new SimplePasswordHasher(array('hashType' => 'sha256'));
             $this->data[$this->alias]['password'] = $passwordHasher->hash(
