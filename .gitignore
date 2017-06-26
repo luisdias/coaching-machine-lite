@@ -58,3 +58,4 @@ Thumbs.db
 /app/webroot/install.php
 
 /docs
+app/Config/coaching_machine_settings.php
