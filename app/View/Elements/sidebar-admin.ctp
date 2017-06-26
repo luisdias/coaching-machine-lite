@@ -65,7 +65,7 @@
 
 					<?php if (!is_null($this->Session->read('Coachee.User.id'))) { ?>
                     <li>
-						<?php echo $this->Html->link('<i class="glyphicon glyphicon-refresh"></i> '.__('Reset'), array('controller' => 'users', 'action' => 'reset'),array('escape'=>false)); ?>
+						<?php echo $this->Html->link('<i class="glyphicon glyphicon-refresh"></i> '.__('Reset'), array('controller' => 'users', 'action' => 'reset_user'),array('escape'=>false)); ?>
 					</li>
 					<?php } ?>
                 </ul>
