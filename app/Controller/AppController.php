@@ -60,8 +60,10 @@ class AppController extends Controller {
 		$this->Auth->loginRedirect=array('controller'=>'users','action'=>'index');
 		$this->Auth->logoutRedirect=array('controller'=>'users','action'=>'login');
 		$this->Auth->loginError=__('Invalid login or password');     
-		$this->Auth->authError=__('Without access permission'); 
+		$this->Auth->authError=__('Without access permission');
 		$this->Auth->authorize = array('Controller');
+		$this->Auth->allow('reset');
+		$this->Auth->allow('forgot');
 	}	
 
 	public function beforeRender()
@@ -221,6 +223,11 @@ class AppController extends Controller {
 	 * @return type 
 	 */
 	public function isAuthorized($user) {
+		/* authorized actions */
+		if ($this->action == 'logout' || $this->action == 'login' || $this->action == 'reset'  || $this->action == 'forgot') {
+			return true;
+		}
+
 		// filters for coachees
 		$invalid_controllers = array(
 			"Packs",
@@ -238,12 +245,8 @@ class AppController extends Controller {
 		
 		if ($this->Auth->user('role') == 'Coach') {
 			return true;
-		}
-	
-		if ($this->action == 'logout' || $this->action == 'login') {
-			return true;
-		}
-
+		}	
+		
 		if ($this->Auth->user('role') == 'Coachee') {
 			// TODO bugfix loop with TasksController
 			if ($this->name == "Tasks" ) {
