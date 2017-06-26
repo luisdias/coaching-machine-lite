@@ -23,6 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 App::uses('AppController', 'Controller');
+App::uses('CakeEmail', 'Network/Email');
 /**
  * Users Controller
  *
@@ -91,7 +92,8 @@ class UsersController extends AppController {
 		}
 	}
 
-	public function reset() {
+	/* reset_user: clean user filter from session */
+	public function reset_user() {
 		$this->Session->delete('Coachee');
 		$this->redirect(array('controller' => 'users', 'action' => 'index'));
 	}
@@ -101,6 +103,85 @@ class UsersController extends AppController {
 			$this->reset();	
 		}		
 		parent::delete($id);
+	}
+
+	/* 
+	LDIAS - 20/06/2017
+	forgot password method 
+	user enters email and receives message with link
+	*/
+	public function forgot() {
+		$this->layout = 'login';
+		if($this->request->is('post')) {			
+			$email = $this->request->data['User']['email'];
+			$data = $this->User->findByEmail($email);
+			if(!$data) {
+				$message = __('No Such E-mail address registerd with us ');
+				$this->Session->setFlash($message, 'alert-box', array('class'=>'alert-warning'));
+			} else {
+				$key = Security::hash(mt_rand(),'md5',true);								
+				$id = $data['User']['id'];
+				$mail = $data['User']['email'];
+				$email = new CakeEmail();
+				$email->to($mail);
+				$email->from("info@espacoserhumano.com");
+				$email->emailFormat('html');
+				$email->subject(__('Password reset instructions from'));
+				$email->viewVars(array('key'=>$key,'id'=>$id,'rand'=> mt_rand()));
+				$email->template('reset');
+				try{
+					$email->send('reset');
+				}	catch (Exception $e) {
+					$message = __('Something went wrong with activation mail. Please try later.');
+					$this->Session->setFlash($message, 'alert-box', array('class'=>'alert-danger'));
+					return false;
+				}	
+				$this->User->id = $id;
+				$this->User->saveField('resetkey',$key);
+				$message = __('Please check your email for reset instructions.');
+				$this->Session->setFlash($message, 'alert-box', array('class'=>'alert-success'));
+			}
+		}		
+	}
+
+	/* 
+	LDIAS - 20/06/2017	
+	reset password method 
+	user clicks on the email link and password form is showed
+	*/
+	public function reset() {
+		$this->layout = 'login';				
+		if($this->request->is('post')) {		
+			$a = func_get_args();
+			$keyPair = $a[0];
+			$key = explode('BXX', $keyPair);
+			$pair = explode('XXB',$key[1]);
+			$key = $key[0];
+			$pair = $pair[1];
+			$password = $this->request->data['User']['password'];
+			$password_confirm = $this->request->data['User']['password_confirm'];
+			unset($this->request->data['User']['password']);
+			$uArr = $this->User->findById($pair);
+			if (!($password === $password_confirm)) {
+				$message = __('Passwords don\'t match',true);
+				$this->Session->setFlash($message, 'alert-box', array('class'=>'alert-danger'));
+				return false;
+			}
+			if ($uArr['User']['resetkey'] == $key) {
+				$this->User->read(null, $pair);
+				if ($this->User->saveField('password', $password)) { 
+					$this->User->saveField('resetkey', null);
+					$message = __('Your password has been reset');
+					$this->Session->setFlash($message, 'alert-box', array('class'=>'alert-success'));
+				} else {
+					$message = __('Something has gone wrong. Please try later or <b>contact the administrator</b>');
+					$this->Session->setFlash($message, 'alert-box', array('class'=>'alert-danger')); 
+				}
+			} else {
+				$message = __('<b>Please check your reset link</b>');
+				$this->Session->setFlash($message, 'alert-box', array('class'=>'alert-danger'));
+			} 		
+		} // $this->request->is('post')
 	}
 
 }
